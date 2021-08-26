@@ -3,15 +3,15 @@ package com.dacarpas.histainability
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.menu_sdg.*
 
-class MainActivity : AppCompatActivity() {
+class SdgMenu : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.menu_sdg)
 
-        btngraphmenu.setOnClickListener{
-            val intent = Intent(this, SdgMenu::class.java)
+        graph.setOnClickListener{
+            val intent = Intent(this, Graph::class.java)
             startActivity(intent)
         }
     }
