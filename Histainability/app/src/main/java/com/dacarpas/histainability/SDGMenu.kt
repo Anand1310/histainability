@@ -11,7 +11,7 @@ class SdgMenu : AppCompatActivity() {
         setContentView(R.layout.menu_sdg)
 
         graph.setOnClickListener{
-            val intent = Intent(this, Graph::class.java)
+            val intent = Intent(this, DisplayGraph::class.java)
             startActivity(intent)
         }
     }
