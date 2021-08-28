@@ -1,5 +1,6 @@
 package com.dacarpas.histainability
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.github.mikephil.charting.animation.Easing
@@ -43,5 +44,11 @@ class DisplayGraph : AppCompatActivity() {
 
         lineChart.animateX(1800, Easing.EaseInExpo)
 
+        button6.setOnClickListener{
+            val intent = Intent(this, temp::class.java)
+            startActivity(intent)
+        }
     }
 }
+
+
