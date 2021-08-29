@@ -1,11 +1,16 @@
 package com.dacarpas.histainability
 
 import android.content.Intent
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import kotlinx.android.synthetic.main.activity_main.*
+import okhttp3.*
+import java.io.IOException
 
 class MainActivity : AppCompatActivity() {
 
@@ -28,7 +33,7 @@ class MainActivity : AppCompatActivity() {
 
 
         graph.setOnClickListener {
-            val intent = Intent(this,GraphActivity::class.java)
+            val intent = Intent(this,SdgMenu::class.java)
             startActivity(intent)
         }
 
@@ -53,4 +58,6 @@ class MainActivity : AppCompatActivity() {
 
 
     }
+
 }
+
