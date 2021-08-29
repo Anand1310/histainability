@@ -1,7 +1,9 @@
 package com.dacarpas.histainability
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.github.mikephil.charting.animation.Easing
 import com.github.mikephil.charting.data.Entry
@@ -24,13 +26,10 @@ class DisplayGraph : AppCompatActivity() {
         fetchJson()
         Log.i("JSON", "Update2 axis[0] ${axis[0]}")
         makeGraph()
-        Log.i("JSON", "Update3 axis[0] ${axis[0]}")
-
-
     }
 
     private fun fetchJson() {
-        val content = "amit"
+        val content = "sustainable"
         val yearStart = 1800
         val yearEnd = 2019
         val URL =
@@ -49,23 +48,21 @@ class DisplayGraph : AppCompatActivity() {
                 val resBody = response.body?.string()
 
                 val gson = GsonBuilder().create()
+                // convert from JSON to object array
                 val graphFeed = gson.fromJson(resBody, Array<GraphFeed>::class.java)
 
                 for (g in graphFeed) {
                     axis = g.timeseries
 
+                    // refresh graph with new data
                     lineChart.notifyDataSetChanged()
                     lineChart.invalidate()
-
-                    println("axis0 ${axis[0]}")
                 }
                 countDownLatch.countDown();
-
-
             }
 
             override fun onFailure(call: Call, e: IOException) {
-//                Toast.makeText(this@DisplayGraph, "Internet Issue", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@DisplayGraph, "Internet Issue", Toast.LENGTH_SHORT).show()
                 Log.i("JSON", "Error receiving json object")
                 return
             }
@@ -76,14 +73,12 @@ class DisplayGraph : AppCompatActivity() {
 
     private fun makeGraph() {
 
-
         val entries = ArrayList<Entry>()
         var j = 1f
         for (i in axis.indices) {
             entries.add(Entry(j, axis[i]))
             j += 1
         }
-
 
         val vl = LineDataSet(entries, "Events")
 
@@ -106,8 +101,12 @@ class DisplayGraph : AppCompatActivity() {
         lineChart.animateX(1800, Easing.EaseInExpo)
 
 
-
+        button6.setOnClickListener{
+            val intent = Intent(this, temp::class.java)
+            startActivity(intent)
+        }
     }
 }
+
 
 class GraphFeed(val ngram: String, val timeseries: Array<Float>)
