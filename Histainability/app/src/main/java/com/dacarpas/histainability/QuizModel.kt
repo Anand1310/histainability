@@ -9,6 +9,5 @@ object Supplier {
         Question("What is life ?", listOf("Joke", "Pain", "Opposite of good","All of the above"), 1,-1),
         Question("What is life ?", listOf("Joke", "Pain", "Opposite of good","All of the above"), 2,-1),
         Question("What is life ?", listOf("Joke", "Pain", "Opposite of good","All of the above"), 3,-1),
-
     )
 }

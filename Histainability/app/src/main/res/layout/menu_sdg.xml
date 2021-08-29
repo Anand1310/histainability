@@ -1,14 +1,334 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp">
+    android:background="#070707"
+    tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/graph"
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="162dp"
+        android:layout_height="165dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.468"
+        app:srcCompat="@drawable/sdg" />
+
+    <TextView
+        android:id="@+id/sdg1"
+        android:layout_width="74dp"
+        android:layout_height="76dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="87dp"
+        android:background="#F31B1B"
+        android:gravity="center"
+        android:text="NO POVERTY"
+        android:textColor="#ffff"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/sdg2"
+        android:layout_width="74dp"
+        android:layout_height="76dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="-74dp"
+        android:layout_marginBottom="87dp"
+        android:background="#D1B838"
+        android:gravity="center"
+        android:text="ZERO HUNGER"
+        android:textColor="#090909"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/sdg10" />
+
+    <TextView
+        android:id="@+id/sdg3"
+        android:layout_width="64dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="2dp"
+        android:background="#48AA4D"
+        android:gravity="center"
+        android:text="GOOD HEALTH AND WELL-BEING"
+        android:textColor="#121111"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/sdg4"
+        android:layout_width="64dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="2dp"
+        android:background="#E4092A"
+        android:gravity="center"
+        android:text="QUALITY EDUCATION"
+        android:textColor="#ffff"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/sdg3" />
+
+    <TextView
+        android:id="@+id/sdg5"
+        android:layout_width="64dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="2dp"
+        android:background="#FB3503"
+        android:gravity="center"
+        android:text="GENDER EQUALITY"
+        android:textColor="#0B0B0B"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/sdg4" />
+
+    <TextView
+        android:id="@+id/sdg6"
+        android:layout_width="64dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="#00B0FF"
+        android:gravity="center"
+        android:text="CLEAN WATER AND SANITATION"
+        android:textColor="#0E0E0E"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/sdg5"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/sdg7"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="-78dp"
+        android:background="#FFC400"
+        android:gravity="center"
+        android:text="AFFORDABLE AND CLEAN ENERGY"
+        android:textColor="#050505"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/sdg8"
+        android:layout_width="64dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginBottom="2dp"
+        android:background="#A31616"
+        android:gravity="center"
+        android:text="DECENT WORK AND ECONOMIC GROWTH"
+        android:textColor="#ffff"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/sdg9"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="4dp"
+        android:background="#FB8C00"
+        android:gravity="center"
+        android:text="INDUSTRY, INNOVATION AND INFRASTRUUCTURE"
+        android:textColor="#100F0F"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/sdg10"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="-82dp"
+        android:background="#E83073"
+        android:gravity="center"
+        android:text="REDUCED INEQUALITIES"
+        android:textColor="#101010"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/sdg5"
+        app:layout_constraintStart_toEndOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/sdg11"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="10dp"
+        android:background="#FFB300"
+        android:gravity="center"
+        android:text="SUSTAINABLE CITIES AND COMMUNITIES"
+        android:textColor="#090909"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/sdg12"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/sdg12"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="2dp"
+        android:background="#D8B325"
+        android:gravity="center"
+        android:text="RESPONSIBLE CONSUMPTION AND PRODUCTION"
+        android:textColor="#151414"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/sdg13"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="2dp"
+        android:background="#39883D"
+        android:gravity="center"
+        android:text="CLIMATE ACTION"
+        android:textColor="#ffff"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/sdg14"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="4dp"
+        android:background="#0770CC"
+        android:gravity="center"
+        android:text="LIFE BELOW WATER"
+        android:textColor="#ffff"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/sdg15"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="10dp"
+        android:background="#47D64D"
+        android:gravity="center"
+        android:text="LIFE ON LAND"
+        android:textColor="#0C0C0C"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/sdg16"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="2dp"
+        android:background="#2D2B73"
+        android:gravity="center"
+        android:text="PEACE, JUSTICE AND STRONG INSTITUTIONS"
+        android:textColor="#ffff"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/sdg13"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/sdg17"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="-160dp"
+        android:background="#364EA5"
+        android:gravity="center"
+        android:text="PARTNERSHIPS FOR THE GOALS"
+        android:textColor="#ffff"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Graph" />
-</LinearLayout>
+        android:layout_marginTop="28dp"
+        android:text="SELECT THE GOAL YOU WOULD LIKE TO EXPLORE"
+        android:textColor="#FDF8F8"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/backBtn"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
+        android:background="#F30202"
+        app:tint="#F4EDED"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="?attr/homeAsUpIndicator" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

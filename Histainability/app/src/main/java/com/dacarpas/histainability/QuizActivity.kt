@@ -36,6 +36,7 @@ class QuizActivity : AppCompatActivity() {
         val layoutManager = LinearLayoutManager(this)
         layoutManager.orientation = LinearLayoutManager.VERTICAL
 
+
         Score.text = "Submit to check score"
         Solved.text = "Solved: 0 / ${Supplier.questions.size}"
 
@@ -65,7 +66,6 @@ class QuizActivity : AppCompatActivity() {
 
         adapter.notifyDataSetChanged()
         quizQuestion.layoutManager = layoutManager
-
 
         SubmitQuiz.setOnClickListener {
             var score : Int = 0
@@ -100,8 +100,4 @@ class QuizActivity : AppCompatActivity() {
         }
 
     }
-
-
-
-
 }
