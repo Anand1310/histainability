@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+
         settings_text.setOnClickListener {
             val intent = Intent(this,SettingsActivity::class.java)
             startActivity(intent)
