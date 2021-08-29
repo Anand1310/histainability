@@ -28,9 +28,9 @@ class QuizActivity : AppCompatActivity() {
         layoutManager.orientation = LinearLayoutManager.VERTICAL
 
         Score.text = "Hello Sire"
-        Solved.text = "byr Sire"
+        Solved.text = "bye Sire"
 
-        adapter= QuizAdapter(this, Supplier.questions)
+        adapter = QuizAdapter(this, Supplier.questions)
         quizQuestion.adapter = adapter
         quizQuestion.setHasFixedSize(true)
 
