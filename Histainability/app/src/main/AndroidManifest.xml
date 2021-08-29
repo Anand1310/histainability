@@ -21,6 +21,8 @@
         <activity android:name=".DisplayGraph" />
         <activity android:name=".LinkActivity" />
         <activity android:name=".temp" />
+        <activity android:name=".QuizActivity"/>
+        <activity android:name=".SettingsActivity"/>
     </application>
 
 </manifest>

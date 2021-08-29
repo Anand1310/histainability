@@ -3,7 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< HEAD
+<<<<<<< HEAD
         <entry key="app/src/main/res/layout/graph_display.xml" value="0.38004750593824227" />
+=======
+        <entry key="..\:/Projects/histainability/Histainability/app/src/main/res/drawable/ic_image_1_background.xml" value="0.2546875" />
+        <entry key="..\:/Projects/histainability/Histainability/app/src/main/res/drawable/my_border.xml" value="0.2546875" />
+        <entry key="..\:/Projects/histainability/Histainability/app/src/main/res/layout/activity_graph.xml" value="0.264" />
+        <entry key="..\:/Projects/histainability/Histainability/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Projects/histainability/Histainability/app/src/main/res/layout/activity_other_app.xml" value="0.12360688956433637" />
+        <entry key="..\:/Projects/histainability/Histainability/app/src/main/res/layout/activity_quiz.xml" value="0.4" />
+        <entry key="..\:/Projects/histainability/Histainability/app/src/main/res/layout/activity_settings.xml" value="0.12360688956433637" />
+        <entry key="..\:/Projects/histainability/Histainability/app/src/main/res/layout/quiz_question.xml" value="0.264" />
+>>>>>>> a8df600... home page and quiz added
+=======
+        <entry key="..\:/Projects/histainability/Histainability/app/src/main/res/drawable/ic_image_1_background.xml" value="0.2546875" />
+        <entry key="..\:/Projects/histainability/Histainability/app/src/main/res/drawable/my_border.xml" value="0.2546875" />
+        <entry key="..\:/Projects/histainability/Histainability/app/src/main/res/layout/activity_graph.xml" value="0.264" />
+        <entry key="..\:/Projects/histainability/Histainability/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Projects/histainability/Histainability/app/src/main/res/layout/activity_other_app.xml" value="0.12360688956433637" />
+        <entry key="..\:/Projects/histainability/Histainability/app/src/main/res/layout/activity_quiz.xml" value="0.4" />
+        <entry key="..\:/Projects/histainability/Histainability/app/src/main/res/layout/activity_settings.xml" value="0.12360688956433637" />
+        <entry key="..\:/Projects/histainability/Histainability/app/src/main/res/layout/graph_display.xml" value="0.23854166666666668" />
+        <entry key="..\:/Projects/histainability/Histainability/app/src/main/res/layout/menu_sdg.xml" value="0.23854166666666668" />
+        <entry key="..\:/Projects/histainability/Histainability/app/src/main/res/layout/quiz_question.xml" value="0.264" />
+        <entry key="..\:/Projects/histainability/Histainability/app/src/main/res/layout/see_saw.xml" value="0.23854166666666668" />
+>>>>>>> dd12d558f95a09d08e568b49f7ddf247d047a50f
       </map>
     </option>
   </component>
