@@ -4,7 +4,7 @@
     android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#070707"
+    android:background="#FFFFFF"
     tools:context=".MainActivity">
 
     <ImageView
@@ -13,10 +13,9 @@
         android:layout_height="165dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.468"
         app:srcCompat="@drawable/sdg" />
 
     <TextView
@@ -29,9 +28,9 @@
         android:layout_marginBottom="87dp"
         android:background="#F31B1B"
         android:gravity="center"
-        android:text="NO POVERTY"
+        android:text="No Poverty"
         android:textColor="#ffff"
-        android:textSize="14sp"
+        android:textSize="10sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintEnd_toStartOf="@+id/imageView2" />
@@ -48,7 +47,7 @@
         android:gravity="center"
         android:text="ZERO HUNGER"
         android:textColor="#090909"
-        android:textSize="16sp"
+        android:textSize="10sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintStart_toEndOf="@+id/sdg10" />
@@ -65,7 +64,7 @@
         android:gravity="center"
         android:text="GOOD HEALTH AND WELL-BEING"
         android:textColor="#121111"
-        android:textSize="12sp"
+        android:textSize="10sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintEnd_toStartOf="@+id/imageView2" />
@@ -99,7 +98,7 @@
         android:gravity="center"
         android:text="GENDER EQUALITY"
         android:textColor="#0B0B0B"
-        android:textSize="12sp"
+        android:textSize="10sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintStart_toEndOf="@+id/sdg4" />
@@ -116,7 +115,7 @@
         android:gravity="center"
         android:text="CLEAN WATER AND SANITATION"
         android:textColor="#0E0E0E"
-        android:textSize="12sp"
+        android:textSize="10sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintStart_toEndOf="@+id/sdg5"
@@ -166,7 +165,7 @@
         android:layout_marginBottom="4dp"
         android:background="#FB8C00"
         android:gravity="center"
-        android:text="INDUSTRY, INNOVATION AND INFRASTRUUCTURE"
+        android:text="INDUSTRY, INNOVATION AND INFRASTRUCTURE"
         android:textColor="#100F0F"
         android:textSize="10sp"
         android:textStyle="bold"
@@ -234,7 +233,7 @@
         android:gravity="center"
         android:text="CLIMATE ACTION"
         android:textColor="#ffff"
-        android:textSize="14sp"
+        android:textSize="10sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
@@ -251,7 +250,7 @@
         android:gravity="center"
         android:text="LIFE BELOW WATER"
         android:textColor="#ffff"
-        android:textSize="12sp"
+        android:textSize="10sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintStart_toEndOf="@+id/imageView2" />
@@ -268,7 +267,7 @@
         android:gravity="center"
         android:text="LIFE ON LAND"
         android:textColor="#0C0C0C"
-        android:textSize="14sp"
+        android:textSize="10sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/imageView2"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
@@ -311,24 +310,40 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="40dp"
         android:text="SELECT THE GOAL YOU WOULD LIKE TO EXPLORE"
-        android:textColor="#FDF8F8"
-        android:textSize="16sp"
+        android:textColor="#2196F3"
+        android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/backBtn"
-        android:layout_width="70dp"
-        android:layout_height="50dp"
-        android:layout_marginBottom="24dp"
-        android:background="#F30202"
-        app:tint="#F4EDED"
+    <Button
+        android:id="@+id/sdg0"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_marginBottom="16dp"
+        android:padding="0dp"
+        android:text="Sustainable"
+        android:textAllCaps="false"
+        android:textSize="10sp"
+        app:backgroundTint="#F31B1B"
+        app:cornerRadius="3dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="?attr/homeAsUpIndicator" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/backBtn"-->
+    <!--        android:layout_width="70dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:layout_marginBottom="24dp"-->
+    <!--        android:background="#F30202"-->
+    <!--        app:tint="#F4EDED"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:srcCompat="?attr/homeAsUpIndicator" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
