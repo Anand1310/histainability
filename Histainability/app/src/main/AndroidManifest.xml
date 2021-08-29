@@ -17,6 +17,7 @@
         </activity>
         <activity android:name=".SdgMenu" />
         <activity android:name=".DisplayGraph" />
+        <activity android:name=".LinkActivity" />
         <activity android:name=".temp" />
     </application>
 

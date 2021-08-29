@@ -14,5 +14,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, SdgMenu::class.java)
             startActivity(intent)
         }
+
+        btnlinks.setOnClickListener{
+            val intent = Intent(this, LinkActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
