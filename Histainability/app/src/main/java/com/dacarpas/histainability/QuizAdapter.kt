@@ -6,13 +6,19 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.RadioButton
 import android.widget.RadioGroup
+
 import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 
-class QuizAdapter(val context: Context, val Questions: List<Question>) : RecyclerView.Adapter<QuizAdapter.MyViewHolder>() {
+class QuizAdapter(val context: Context,
+                  val Questions: List<Question>,
+                  val adapterOnClick: AdapterOnClick ) :
+    RecyclerView.Adapter<QuizAdapter.MyViewHolder>() {
 
-
+    interface AdapterOnClick {
+        fun onClick(pos: Int, option : Int)
+    }
 
     override fun getItemCount(): Int {
         return Questions.size
@@ -40,9 +46,33 @@ class QuizAdapter(val context: Context, val Questions: List<Question>) : Recycle
         private var option4: RadioButton = itemView.findViewById<RadioButton>(R.id.option4)
 
         init {
-            itemView.setOnClickListener {
-                Toast.makeText(context, currentQuestion!!.question + " Clicked !", Toast.LENGTH_SHORT).show()
+            option1.setOnClickListener {
+
+                adapterOnClick.onClick(currentPosition,0)
+
             }
+
+
+            option2.setOnClickListener {
+
+
+                adapterOnClick.onClick(currentPosition,1)
+            }
+
+
+            option3.setOnClickListener {
+
+
+                adapterOnClick.onClick(currentPosition,2)
+            }
+
+
+            option4.setOnClickListener {
+
+
+                adapterOnClick.onClick(currentPosition,3)
+            }
+
         }
 
         fun setData(question: Question?, pos: Int){
