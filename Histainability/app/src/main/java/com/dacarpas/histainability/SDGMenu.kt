@@ -88,8 +88,10 @@ class SdgMenu : AppCompatActivity() {
             Toast.makeText(this, "Loading...", Toast.LENGTH_SHORT).show()
 
             val intent = Intent(this, DisplayGraph::class.java)
-            intent.putExtra("content", sdgGoals[6])
-            intent.putExtra("goalNumber", 6)
+            val bundle = Bundle()
+            bundle.putString("content", sdgGoals[6])
+            bundle.putString("goalNumber", "6")
+            intent.putExtras(bundle)
 
             startActivity(intent)
         }
@@ -98,8 +100,10 @@ class SdgMenu : AppCompatActivity() {
             Toast.makeText(this, "Loading...", Toast.LENGTH_SHORT).show()
 
             val intent = Intent(this, DisplayGraph::class.java)
-            intent.putExtra("content", sdgGoals[7])
-            intent.putExtra("goalNumber", 7)
+            val bundle = Bundle()
+            bundle.putString("content", sdgGoals[7])
+            bundle.putString("goalNumber", "7")
+            intent.putExtras(bundle)
 
             startActivity(intent)
         }
@@ -108,8 +112,10 @@ class SdgMenu : AppCompatActivity() {
             Toast.makeText(this, "Loading...", Toast.LENGTH_SHORT).show()
 
             val intent = Intent(this, DisplayGraph::class.java)
-            intent.putExtra("content", sdgGoals[8])
-            intent.putExtra("goalNumber", 8)
+            val bundle = Bundle()
+            bundle.putString("content", sdgGoals[8])
+            bundle.putString("goalNumber", "8")
+            intent.putExtras(bundle)
 
             startActivity(intent)
         }
@@ -118,8 +124,10 @@ class SdgMenu : AppCompatActivity() {
             Toast.makeText(this, "Loading...", Toast.LENGTH_SHORT).show()
 
             val intent = Intent(this, DisplayGraph::class.java)
-            intent.putExtra("content", sdgGoals[9])
-            intent.putExtra("goalNumber", 9)
+            val bundle = Bundle()
+            bundle.putString("content", sdgGoals[9])
+            bundle.putString("goalNumber", "9")
+            intent.putExtras(bundle)
 
             startActivity(intent)
         }
@@ -128,8 +136,10 @@ class SdgMenu : AppCompatActivity() {
             Toast.makeText(this, "Loading...", Toast.LENGTH_SHORT).show()
 
             val intent = Intent(this, DisplayGraph::class.java)
-            intent.putExtra("content", sdgGoals[10])
-            intent.putExtra("goalNumber", 10)
+            val bundle = Bundle()
+            bundle.putString("content", sdgGoals[10])
+            bundle.putString("goalNumber", "10")
+            intent.putExtras(bundle)
 
             startActivity(intent)
         }
@@ -138,8 +148,10 @@ class SdgMenu : AppCompatActivity() {
             Toast.makeText(this, "Loading...", Toast.LENGTH_SHORT).show()
 
             val intent = Intent(this, DisplayGraph::class.java)
-            intent.putExtra("content", sdgGoals[11])
-            intent.putExtra("goalNumber", 11)
+            val bundle = Bundle()
+            bundle.putString("content", sdgGoals[11])
+            bundle.putString("goalNumber", "11")
+            intent.putExtras(bundle)
 
             startActivity(intent)
         }
@@ -148,8 +160,10 @@ class SdgMenu : AppCompatActivity() {
             Toast.makeText(this, "Loading...", Toast.LENGTH_SHORT).show()
 
             val intent = Intent(this, DisplayGraph::class.java)
-            intent.putExtra("content", sdgGoals[12])
-            intent.putExtra("goalNumber", 12)
+            val bundle = Bundle()
+            bundle.putString("content", sdgGoals[12])
+            bundle.putString("goalNumber", "12")
+            intent.putExtras(bundle)
 
             startActivity(intent)
         }

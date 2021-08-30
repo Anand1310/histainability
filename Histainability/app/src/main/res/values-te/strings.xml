@@ -45,6 +45,7 @@
     <string name="otherapps_head">ఇతర లింకులు</string>
 
     <!-- Strings used for acivity_quiz-->
+    <string name="quiz_heading">Select The Goal To <br/>Test Your Knowledge</string>
     <string name="quiz_intro">క్విజ్</string>
     <string name="quiz_score">స్కోరు : 0/100</string>
     <string name="quiz_solved">పరిష్కరించబడింది : 0/10</string>

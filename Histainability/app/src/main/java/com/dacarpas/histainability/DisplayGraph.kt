@@ -22,7 +22,7 @@ class DisplayGraph : AppCompatActivity() {
     private var content: String = "sustainable"
     private val yearStart = 1900
     private val yearEnd = 2019
-    private var eventGoals: List<EventData> = listOf(EventData("Sample", "Sample desc", 1))
+    private var eventGoals: List<EventData> = listOf(EventData(1950, "Sample", "Sample desc", 1))
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
