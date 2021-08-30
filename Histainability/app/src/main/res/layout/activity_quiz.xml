@@ -10,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="Quiz"
+        android:text="@string/quiz_intro"
         android:textSize="40dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,7 +41,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
-                android:text="Score : 0/100"
+                android:text="@string/quiz_score"
                 android:textStyle="bold" />
 
         </androidx.cardview.widget.CardView>
@@ -56,7 +56,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
-                android:text="Solved : 0/10"
+                android:text="@string/quiz_solved"
                 android:textStyle="bold" />
 
         </androidx.cardview.widget.CardView>
@@ -78,7 +78,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginBottom="4dp"
-        android:text="Submit"
+        android:text="@string/quiz_submit"
         app:backgroundTint="#C52B2B"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/quiz_intro"

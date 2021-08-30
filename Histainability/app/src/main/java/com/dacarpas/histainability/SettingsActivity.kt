@@ -1,9 +1,11 @@
 package com.dacarpas.histainability
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import kotlinx.android.synthetic.main.activity_settings.*
+import kotlinx.android.synthetic.main.activity_settings.view.*
 
 class SettingsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,10 +27,25 @@ class SettingsActivity : AppCompatActivity() {
             }
         }
 
+<<<<<<< HEAD
+=======
+        clSettingPage.ibShareButtonApp.setOnClickListener {
+            // TODO(ADD GOOGLE PLAY LINK)
+            val message: String = "GOOGLE PLAY LINK"
+
+            val intent = Intent()
+            intent.action = Intent.ACTION_SEND
+            intent.type = "text/plain"
+            intent.putExtra(Intent.EXTRA_TEXT, message)
+
+            // creates a dialog for sharing to other apps
+            startActivity(Intent.createChooser(intent, "Share to your vromis:"))
+
+        }
+>>>>>>> 7e196468a29413af670e5efcafcaac89fc594867
     }
 
     override fun onSupportNavigateUp(): Boolean {
-//        return super.onNavigateUp()
         onBackPressed()
         return true
     }

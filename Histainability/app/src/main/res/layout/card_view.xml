@@ -2,6 +2,7 @@
 <androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginLeft="5dp"
@@ -15,7 +16,7 @@
         android:background="@android:color/white"
         android:baselineAligned="false"
         android:orientation="vertical"
-        android:padding="5dp">
+        android:padding="15dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -24,13 +25,6 @@
             android:baselineAligned="false"
             android:orientation="horizontal"
             android:padding="5dp">
-            <ImageView
-                android:id="@+id/imgShare"
-                android:layout_width="30dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:src="@android:drawable/ic_menu_share"
-                card_view:tint="#eeeeee" />
 
             <TextView
                 android:id="@+id/txvTitle"
@@ -41,19 +35,18 @@
                 android:text="Title"
                 android:textColor="#616161"
                 android:textSize="18sp"
-                android:textStyle="bold"/>
-        </LinearLayout>
+                android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/txvLink"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="5dp"
-            android:layout_weight="1"
-            android:text="link"
-            android:textColor="#616161"
-            android:textSize="14sp"
-            android:textStyle="italic"/>
+            <ImageView
+                android:id="@+id/imgShare"
+                android:layout_width="49dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center"
+                android:src="@android:drawable/ic_menu_view"
+                card_view:tint="#1C4D1D"
+                tools:srcCompat="@android:drawable/ic_menu_view" />
+
+        </LinearLayout>
 
         <TextView
             android:id="@+id/txvDescription"
@@ -63,7 +56,7 @@
             android:layout_weight="1"
             android:text="description"
             android:textColor="#616161"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
 
     </LinearLayout>
 </androidx.cardview.widget.CardView>

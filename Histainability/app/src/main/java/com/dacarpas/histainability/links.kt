@@ -49,7 +49,7 @@ class LinksAdapter (val context: Context, val links: List<Link>) : RecyclerView.
 
         fun setData(link: Link?, pos: Int){
             itemView.txvTitle.text = link!!.title
-            itemView.txvLink.text = link!!.link
+//            itemView.txvLink.text = link!!.link
             itemView.txvDescription.text = link!!.description
             this.currentLink = link!!.link
             this.currentPosition = pos

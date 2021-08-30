@@ -45,6 +45,7 @@
     <string name="otherapps_head">Other Linmks</string>
 
     <!-- Strings used for acivity_quiz-->
+    <string name="quiz_heading">Select The Goal To \n Test Your Knowledge</string>
     <string name="quiz_intro">Quiz</string>
     <string name="quiz_score">Score : 0/100</string>
     <string name="quiz_solved">Solved : 0/10</string>

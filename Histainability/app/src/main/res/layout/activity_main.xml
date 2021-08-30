@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp"
-    android:orientation="vertical">
+    android:background="#FBFAFA"
+    android:orientation="vertical"
+    android:padding="20dp">
 
     <ImageView
         android:id="@+id/App_Logo"
@@ -23,7 +23,7 @@
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#0DF8F7F7"
+        android:background="#D3D1D1"
         android:orientation="vertical"
         android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,12 +38,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
+            android:background="#FCFBFB"
             android:padding="5dp"
-            android:text="Graph"
+            android:text="@string/homepage_graph"
             android:textAlignment="center"
             android:textColor="#32877C"
             android:textSize="25dp"
-            android:background="@drawable/my_border"
             android:textStyle="bold" />
 
         <TextView
@@ -51,12 +51,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
+            android:background="#FCFBFB"
             android:padding="5dp"
-            android:text="Quiz"
+            android:text="@string/homepage_quiz"
             android:textAlignment="center"
             android:textColor="#32877C"
             android:textSize="25dp"
-            android:background="@drawable/my_border"
             android:textStyle="bold" />
 
         <TextView
@@ -64,12 +64,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
+            android:background="#FCFBFB"
             android:padding="5dp"
-            android:text="Settings"
+            android:text="@string/homepage_settings"
             android:textAlignment="center"
             android:textColor="#32877C"
             android:textSize="25dp"
-            android:background="@drawable/my_border"
             android:textStyle="bold" />
 
         <TextView
@@ -77,13 +77,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
+            android:background="#FCFBFB"
             android:padding="5dp"
-            android:text="Other Apps"
+            android:text="@string/homepage_other"
             android:textAlignment="center"
             android:textColor="#32877C"
-            android:textSize="25dp"
 
-            android:background="@drawable/my_border"
+            android:textSize="25dp"
             android:textStyle="bold" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,10 +1,9 @@
 package com.dacarpas.histainability
 
-import android.content.Intent
 import android.os.Bundle
 import android.util.Log
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.github.mikephil.charting.animation.Easing
 import com.github.mikephil.charting.components.XAxis
 import com.github.mikephil.charting.data.Entry
@@ -21,6 +20,7 @@ class DisplayGraph : AppCompatActivity() {
     private var content: String = "sustainable"
     private val yearStart = 1900
     private val yearEnd = 2019
+    private var eventGoals: List<EventData> = listOf(EventData(1950, "Sample", "Sample desc", 1))
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,6 +36,13 @@ class DisplayGraph : AppCompatActivity() {
         val bundle: Bundle? = intent.extras
         content = bundle!!.getString("content").toString()
 
+        eventGoals = when (bundle.getString("goalNumber").toString()) {
+            "1" -> Supplier2.eventsGoal1
+            "2" -> Supplier2.eventsGoal2
+            else -> Supplier2.eventsGoal17
+        }
+
+        makeCards()
 //        Toast.makeText(this, "i receive: $content", Toast.LENGTH_LONG).show()
 
         fetchJson()
@@ -43,6 +50,23 @@ class DisplayGraph : AppCompatActivity() {
 //        Log.i("JSON", "Update axis[0] ${axis[0]}")
 
         makeGraph()
+
+
+    }
+
+    private fun makeCards() {
+
+        // layout type for recycler view : linear, grid, staggered
+        val layoutManager = LinearLayoutManager(this)
+        layoutManager.orientation = LinearLayoutManager.VERTICAL
+        rvHistoryEvents.layoutManager = layoutManager
+
+        // calling the adapter, passing this activity as context and the array of data
+
+
+        val adapter = GraphAdapter(this, this.eventGoals)
+        rvHistoryEvents.adapter = adapter
+        rvHistoryEvents.setHasFixedSize(true) // use for performance
     }
 
     private fun fetchJson() {
@@ -76,7 +100,7 @@ class DisplayGraph : AppCompatActivity() {
             }
 
             override fun onFailure(call: Call, e: IOException) {
-                Toast.makeText(this@DisplayGraph, "Internet Issue", Toast.LENGTH_SHORT).show()
+//                Toast.makeText(this@DisplayGraph, "Internet Issue", Toast.LENGTH_SHORT).show()
                 Log.i("JSON", "Error receiving json object")
                 return
             }
@@ -108,7 +132,7 @@ class DisplayGraph : AppCompatActivity() {
 
         lineChart.data = LineData(vl)
         lineChart.axisRight.isEnabled = false
-        lineChart.xAxis.axisMaximum = year+0.1f
+        lineChart.xAxis.axisMaximum = year + 0.1f
         lineChart.setTouchEnabled(true)
         lineChart.setPinchZoom(true)
 
@@ -118,10 +142,10 @@ class DisplayGraph : AppCompatActivity() {
         lineChart.animateX(1000, Easing.EaseInExpo)
 
 
-        button6.setOnClickListener {
-            val intent = Intent(this, temp::class.java)
-            startActivity(intent)
-        }
+//        button6.setOnClickListener {
+//            val intent = Intent(this, temp::class.java)
+//            startActivity(intent)
+//        }
     }
 
     override fun onSupportNavigateUp(): Boolean {

@@ -1,60 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="555dp"
-        android:layout_height="802dp"
-        android:layout_marginStart="-58dp"
-        android:layout_marginEnd="-58dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/photo_1557187764_98fe235c78f9" />
-
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="248dp"
-        android:layout_height="54dp"
-        android:layout_marginStart="153dp"
-        android:layout_marginEnd="164dp"
-        android:layout_marginBottom="188dp"
-        android:background="#277528"
-        android:text="Click here to get more information"
-        android:textAllCaps="false"
-        android:textColor="#FFFDFD"
-        android:textSize="14sp"
-        app:backgroundTint="#F4511E"
-        app:iconTint="#C13C3C"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.477"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayout"
-        android:layout_width="409dp"
+        android:layout_width="match_parent"
         android:layout_height="304dp"
         android:layout_marginStart="2dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="2dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/white"
         android:fitsSystemWindows="true"
-        app:layout_constraintEnd_toEndOf="parent"
 
+        android:padding="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/rvHistoryEvents"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <com.github.mikephil.charting.charts.LineChart
             android:id="@+id/lineChart"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_margin="10dp"
             android:padding="10dp"
@@ -63,6 +34,22 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvHistoryEvents"
+        android:layout_width="409dp"
+        android:layout_height="393dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
