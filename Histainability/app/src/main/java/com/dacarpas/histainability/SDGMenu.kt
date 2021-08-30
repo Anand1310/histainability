@@ -22,14 +22,6 @@ class SdgMenu : AppCompatActivity() {
 //            startActivity(intent)
 //        }
 
-        sdg0.setOnClickListener {
-            Toast.makeText(this, "Loading...", Toast.LENGTH_SHORT).show()
-
-            val intent = Intent(this, DisplayGraph::class.java)
-            intent.putExtra("content", sdg0.text)
-            startActivity(intent)
-        }
-
         sdg1.setOnClickListener {
             Toast.makeText(this, "Loading...", Toast.LENGTH_SHORT).show()
 
@@ -154,6 +146,14 @@ class SdgMenu : AppCompatActivity() {
 
             val intent = Intent(this, DisplayGraph::class.java)
             intent.putExtra("content", sdg16.text)
+            startActivity(intent)
+        }
+
+        sdg17.setOnClickListener {
+            Toast.makeText(this, "Loading...", Toast.LENGTH_SHORT).show()
+
+            val intent = Intent(this, DisplayGraph::class.java)
+            intent.putExtra("content", sdg17.text)
             startActivity(intent)
         }
     }
