@@ -103,7 +103,7 @@ class DisplayGraph : AppCompatActivity() {
         vl.fillColor = R.color.teal_200
         vl.fillAlpha = R.color.design_default_color_error
 
-        lineChart.xAxis.labelRotationAngle = 0f
+        lineChart.xAxis.labelRotationAngle = -30f
         lineChart.xAxis.position = XAxis.XAxisPosition.BOTTOM
 
         lineChart.data = LineData(vl)
