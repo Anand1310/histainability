@@ -10,11 +10,10 @@ import android.R.attr.name
 
 
 
-
 class SdgMenu : AppCompatActivity() {
-    private val sdgGoals = listOf<String>("poverty", "hunger", "health", "education", "gender equality",
-        "sanitation", "clean energy", "economic growth", "infrastructure", "inequality", "sustainable cities",
-        "responsible consumption", "climate", "waterlife", "landlife", "peace", "partnerships")
+    private val sdgGoals = listOf<String>("poverty", "hunger", "health", "education", "gender",
+        "sanitation", "energy", "economy", "infrastructure", "inequality", "sustainable cities",
+        "consumption", "climate", "waterlife", "landlife", "peace", "partnerships")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

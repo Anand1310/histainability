@@ -17,6 +17,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.544"
         app:srcCompat="@drawable/sdg" />
 
     <Button
@@ -330,7 +331,7 @@
         android:layout_width="387dp"
         android:layout_height="61dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="10dp"
         android:gravity="center_horizontal"
         android:text="@string/sdgmenu_head"
