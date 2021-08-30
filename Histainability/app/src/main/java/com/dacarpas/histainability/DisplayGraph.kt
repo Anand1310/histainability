@@ -19,7 +19,7 @@ import java.util.concurrent.CountDownLatch
 class DisplayGraph : AppCompatActivity() {
     private var axis: Array<Float> = arrayOf(13f, 20f, 5f, 40f, 20f, 15f, 33f)
     private var content: String = "sustainable"
-    private val yearStart = 1800
+    private val yearStart = 1900
     private val yearEnd = 2019
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -107,7 +107,8 @@ class DisplayGraph : AppCompatActivity() {
         lineChart.xAxis.position = XAxis.XAxisPosition.BOTTOM
 
         lineChart.data = LineData(vl)
-
+        lineChart.axisRight.isEnabled = false
+        lineChart.xAxis.axisMaximum = year+0.1f
         lineChart.setTouchEnabled(true)
         lineChart.setPinchZoom(true)
 
