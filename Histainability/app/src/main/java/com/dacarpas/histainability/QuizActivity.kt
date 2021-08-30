@@ -37,7 +37,7 @@ class QuizActivity : AppCompatActivity() {
         layoutManager.orientation = LinearLayoutManager.VERTICAL
 
 
-        Score.text = "Submit to check score"
+        Score.text = "Submit to see Score"
         Solved.text = "Solved: 0 / ${Supplier.questions.size}"
 
         adapter = QuizAdapter(this,

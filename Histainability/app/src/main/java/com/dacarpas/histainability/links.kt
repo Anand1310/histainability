@@ -13,19 +13,19 @@ object Links {
 
     val links = listOf<Link>(
         Link("Google", "www.google.com", "A tool to search everything"),
-        Link("Wikipedia", "www.wikipedia.com", "Anyone can learn aything from it"),
+        Link("Wikipedia", "www.wikipedia.com", "Anyone can learn anything from it"),
         Link("Google", "www.google.com", "A tool to search everything"),
-        Link("Wikipedia", "www.wikipedia.com", "Anyone can learn aything from it"),
+        Link("Wikipedia", "www.wikipedia.com", "Anyone can learn anything from it"),
         Link("Google", "www.google.com", "A tool to search everything"),
-        Link("Wikipedia", "www.wikipedia.com", "Anyone can learn aything from it"),
+        Link("Wikipedia", "www.wikipedia.com", "Anyone can learn anything from it"),
         Link("Google", "www.google.com", "A tool to search everything"),
-        Link("Wikipedia", "www.wikipedia.com", "Anyone can learn aything from it"),
+        Link("Wikipedia", "www.wikipedia.com", "Anyone can learn anything from it"),
         Link("Google", "www.google.com", "A tool to search everything"),
-        Link("Wikipedia", "www.wikipedia.com", "Anyone can learn aything from it"),
+        Link("Wikipedia", "www.wikipedia.com", "Anyone can learn anything from it"),
         Link("Google", "www.google.com", "A tool to search everything"),
-        Link("Wikipedia", "www.wikipedia.com", "Anyone can learn aything from it"),
+        Link("Wikipedia", "www.wikipedia.com", "Anyone can learn anything from it"),
         Link("Google", "www.google.com", "A tool to search everything"),
-        Link("Wikipedia", "www.wikipedia.com", "Anyone can learn aything from it")
+        Link("Wikipedia", "www.wikipedia.com", "Anyone can learn anything from it")
     )
 }
 
