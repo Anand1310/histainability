@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.github.mikephil.charting.animation.Easing
 import com.github.mikephil.charting.components.XAxis
 import com.github.mikephil.charting.data.Entry
@@ -43,6 +44,13 @@ class DisplayGraph : AppCompatActivity() {
 //        Log.i("JSON", "Update axis[0] ${axis[0]}")
 
         makeGraph()
+
+        makeCards()
+    }
+
+    private fun makeCards() {
+        val layoutManager = LinearLayoutManager(this)
+        layoutManager.orientation = LinearLayoutManager.VERTICAL
     }
 
     private fun fetchJson() {
@@ -118,10 +126,10 @@ class DisplayGraph : AppCompatActivity() {
         lineChart.animateX(1000, Easing.EaseInExpo)
 
 
-        button6.setOnClickListener {
-            val intent = Intent(this, temp::class.java)
-            startActivity(intent)
-        }
+//        button6.setOnClickListener {
+//            val intent = Intent(this, temp::class.java)
+//            startActivity(intent)
+//        }
     }
 
     override fun onSupportNavigateUp(): Boolean {

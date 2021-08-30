@@ -1,0 +1,31 @@
+package com.dacarpas.histainability
+
+import android.content.Context
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import androidx.recyclerview.widget.RecyclerView
+import androidx.recyclerview.widget.RecyclerView.Adapter
+import kotlinx.android.synthetic.main.graph_card_data.view.*
+
+class GraphAdapter(val context : Context, private val eventsList : List<EventData>) : RecyclerView.Adapter<GraphAdapter.MyViewHolder>(){
+    inner class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
+        fun setData(event: EventData?, position: Int) {
+            itemView.tvTitleEvent.text = event!!.title
+        }
+
+    }
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
+        // converts XML blueprints of a single card into view object
+        val view = LayoutInflater.from(context).inflate(R.layout.graph_card_data, parent, false)
+        return MyViewHolder(view)
+    }
+
+    override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
+        val event = holder
+
+    }
+
+    override fun getItemCount() = eventsList.size
+}

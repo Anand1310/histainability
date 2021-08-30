@@ -22,8 +22,6 @@ class QuizActivity : AppCompatActivity() {
     private var questions : List<Question> = Supplier.questions_goal1
 
 
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quiz)
