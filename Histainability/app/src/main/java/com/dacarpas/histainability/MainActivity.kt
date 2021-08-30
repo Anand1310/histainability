@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         quiz_text.setOnClickListener {
-            val intent = Intent(this, QuizActivity::class.java)
+            val intent = Intent(this, QUIZMenu::class.java)
             startActivity(intent)
         }
 

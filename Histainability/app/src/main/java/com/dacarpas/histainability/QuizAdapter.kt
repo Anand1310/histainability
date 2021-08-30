@@ -32,6 +32,7 @@ class QuizAdapter(val context: Context,
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         val question = Questions[position]
 
+
         holder.setData(question, position)
     }
 
@@ -85,6 +86,21 @@ class QuizAdapter(val context: Context,
 
             this.currentPosition = pos
             this.currentQuestion = question
+
+            if(question!!.user_choice == -1){
+                option1.isChecked = false
+                option2.isChecked = false
+                option3.isChecked = false
+                option4.isChecked = false
+            }else{
+                when(question!!.user_choice){
+                    0 -> option1.isChecked = true
+                    1 -> option2.isChecked = true
+                    2 -> option3.isChecked = true
+                    3 -> option4.isChecked = true
+
+                }
+            }
 
         }
     }

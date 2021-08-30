@@ -23,6 +23,7 @@
         <activity android:name=".temp" />
         <activity android:name=".QuizActivity"/>
         <activity android:name=".SettingsActivity"/>
+        <activity android:name=".QUIZMenu"/>
     </application>
 
 </manifest>
