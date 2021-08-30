@@ -35,6 +35,11 @@ class QuizActivity : AppCompatActivity() {
         RefreshQuiz = findViewById(R.id.refresh_button)
         SelectedOptions = 0
 
+        val actionBar = supportActionBar
+        actionBar!!.title = "Histainability"
+        actionBar.setHomeAsUpIndicator(R.drawable.back_arrow)
+        actionBar.setDisplayHomeAsUpEnabled(true)
+
 
         val bundle: Bundle? = intent.extras
         questions = when(bundle!!.getString("questions").toString()){
@@ -127,5 +132,10 @@ class QuizActivity : AppCompatActivity() {
             question.user_choice = -1
         }
 
+    }
+    override fun onSupportNavigateUp(): Boolean {
+//        return super.onNavigateUp()
+        onBackPressed()
+        return true
     }
 }
