@@ -1,60 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/cvEventCard"
+    android:id="@+id/clEventCard"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="130dp"
+    android:padding="10dp">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="109dp">
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="10dp">
 
         <TextView
-            android:id="@+id/tvTitleEvent"
-            android:layout_width="0dp"
+            android:id="@+id/txvEventTitle"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:padding="5dp"
-            android:text="Title - Sustainable"
-            app:layout_constraintEnd_toStartOf="@+id/ivStarEvent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:background="#AAC986"
+            android:gravity="center_horizontal"
+            android:paddingLeft="2dp"
+            android:paddingTop="0dp"
+            android:paddingRight="2dp"
+            android:text="Title"
+            android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/tvDescriptionEvent"
-            android:layout_width="0dp"
+            android:id="@+id/txvEventDescription"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Description - large textslarge textslarge textslarge textslarge textslarge textslarge textslarge texts"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvTitleEvent"
-            app:layout_constraintVertical_bias="0.272" />
-
-        <ImageView
-            android:id="@+id/ivStarEvent"
-            android:layout_width="49dp"
-            android:layout_height="44dp"
-            app:layout_constraintBottom_toTopOf="@+id/tvDescriptionEvent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@android:drawable/star_on"
-            tools:layout_editor_absoluteX="346dp" />
-
-        <TextView
-            android:id="@+id/tvStarCount"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:gravity="center"
-            android:text="1"
-            app:layout_constraintBottom_toTopOf="@+id/tvDescriptionEvent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/ivStarEvent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-</androidx.cardview.widget.CardView>
+            android:background="#C4E1A2"
+            android:padding="14dp"
+            android:text="Description - large t xtss" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
