@@ -1,4 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">చారిత్రకత</string>
+
+    <!-- Strings used for activity_main and naviigations-->
+    <string name="app_name">హిస్టైనబిలిటీ</string>
+    <string name="title_activity_sdgmenu">SDG మెను</string>
+    <string name="homepage_graph">గ్రాఫ్</string>
+    <string name="homepage_quiz">క్విజ్</string>
+    <string name="homepage_settings">సెట్టింగులు</string>
+    <string name="homepage_other">ఇతర యాప్‌లు</string>
+
+    <!-- Strings used for sdgmenu -->
+    <string name="sdgmenu_head">మీరు అన్వేషించదలిచిన లక్ష్యాన్ని ఎంచుకోండి</string>
+    <string name="sdgmenu_sdg1">పేదరికం లేదు</string>
+    <string name="sdgmenu_sdg2">జీరో ఆకలి</string>
+    <string name="sdgmenu_sdg3">మంచి ఆరోగ్యం మరియు శ్రేయస్సు</string>
+    <string name="sdgmenu_sdg4">నాణ్యమైన విద్య</string>
+    <string name="sdgmenu_sdg5">లింగ సమానత్వం</string>
+    <string name="sdgmenu_sdg6">పరిశుభ్రమైన నీరు మరియు పారిశుధ్యం</string>
+    <string name="sdgmenu_sdg7">సరసమైన మరియు శుభ్రమైన శక్తి</string>
+    <string name="sdgmenu_sdg8">మంచి పని మరియు ఆర్థిక వృద్ధి</string>
+    <string name="sdgmenu_sdg9">పరిశ్రమ, ఇన్నోవేషన్ మరియు మౌలిక సదుపాయాలు</string>
+    <string name="sdgmenu_sdg10">తగ్గిన అసమానతలు</string>
+    <string name="sdgmenu_sdg11">సుస్థిర నగరాలు మరియు సంఘాలు</string>
+    <string name="sdgmenu_sdg12">బాధ్యతాయుతమైన వినియోగం మరియు ఉత్పత్తి</string>
+    <string name="sdgmenu_sdg13">వాతావరణ చర్య</string>
+    <string name="sdgmenu_sdg14">నీటి కింద జీవితం</string>
+    <string name="sdgmenu_sdg15">భూమిపై జీవితం</string>
+    <string name="sdgmenu_sdg16">శాంతి, న్యాయం మరియు బలమైన సంస్థలు</string>
+    <string name="sdgmenu_sdg17">లక్ష్యాల కోసం భాగస్వామ్యాలు</string>
+
+    <!-- Strings used for activity_settings -->
+    <string name="settings_dark">    డార్క్ మోడ్</string>
+    <string name="settings_aboutus">మా గురించి</string>
+    <string name="settings_adi">ఆదిత్య శర్మ CS19B001          పాండా</string>
+    <string name="settings_amit">అమిత్ కేసరి   CS19B003       రోబో</string>
+    <string name="settings_anand">అను ఆనంద్ అన్ను   CS19B044            బిల్లా</string>
+    <string name="settings_sowmya">ఈమని సౌమ్య   CS19B045            ఇమ్ని</string>
+    <string name="settings_share"> మీ స్నేహితులతో పంచుకోండి</string>
+
+    <!-- Strings used for links -->
+    <string name="links">లింకులు</string>
+
+    <!-- Strings used for activity_other_app -->
+    <string name="otherapps_head">ఇతర లింకులు</string>
+
+    <!-- Strings used for acivity_quiz-->
+    <string name="quiz_intro">క్విజ్</string>
+    <string name="quiz_score">స్కోరు : 0/100</string>
+    <string name="quiz_solved">పరిష్కరించబడింది : 0/10</string>
+    <string name="quiz_submit">సమర్పించండి</string>
+
+    <!-- Strings used for fragments for quiz_qestion -->
+    <string name="quiz_question">ప్రశ్న ఇక్కడ </string>
+    <string name="quiz_option1">ఎంపిక 1</string>
+    <string name="quiz_option2">ఎంపిక 2</string>
+    <string name="quiz_option3">ఎంపిక 3</string>
+    <string name="quiz_option4">ఎంపిక 4</string>
+
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">మొదటి భాగం</string>
+    <string name="second_fragment_label">v</string>
+    <string name="next">తరువాత</string>
+    <string name="previous">మునుపటి</string>
+
+    <string name="hello_first_fragment">మొదటి భాగం హలో</string>
+    <string name="hello_second_fragment">హలో రెండవ భాగం. Arg: %1$s</string>
 </resources>

@@ -1,6 +1,62 @@
 <resources>
+
+    <!-- Strings used for activity_main and naviigations-->
     <string name="app_name">Histainability</string>
     <string name="title_activity_sdgmenu">SDGMenu</string>
+    <string name="homepage_graph">Graph</string>
+    <string name="homepage_quiz">Quiz</string>
+    <string name="homepage_settings">Settings</string>
+    <string name="homepage_other">Other Apps</string>
+
+    <!-- Strings used for sdgmenu -->
+    <string name="sdgmenu_head">Select The Goal You Would Like To Explore</string>
+    <string name="sdgmenu_sdg1">No Poverty</string>
+    <string name="sdgmenu_sdg2">Zero Hunger</string>
+    <string name="sdgmenu_sdg3">Good Health And Well-Being</string>
+    <string name="sdgmenu_sdg4">Quality Education</string>
+    <string name="sdgmenu_sdg5">Gender Equality</string>
+    <string name="sdgmenu_sdg6">Clean Water And Sanitation</string>
+    <string name="sdgmenu_sdg7">Affordable And Clean Energy</string>
+    <string name="sdgmenu_sdg8">Decent Work And Economic Growth</string>
+    <string name="sdgmenu_sdg9">Industry, Innovation And Infrastructure</string>
+    <string name="sdgmenu_sdg10">Reduced Inequalities</string>
+    <string name="sdgmenu_sdg11">Sustainable Cities And Communities</string>
+    <string name="sdgmenu_sdg12">Responsible Consumption And Production</string>
+    <string name="sdgmenu_sdg13">Climate Action</string>
+    <string name="sdgmenu_sdg14">Life Below Water</string>
+    <string name="sdgmenu_sdg15">Life On Land</string>
+    <string name="sdgmenu_sdg16">Peace, Justice And Strong Institutions</string>
+    <string name="sdgmenu_sdg17">Partnerships For The Goals</string>
+
+    <!-- Strings used for activity_settings -->
+    <string name="settings_dark">    Dark Mode</string>
+    <string name="settings_aboutus">About Us</string>
+    <string name="settings_adi">Aditya Sharma CS19B001          Panda</string>
+    <string name="settings_amit">Amit Kesari   CS19B003       Robo</string>
+    <string name="settings_anand">Anu Anand Annu   CS19B044            Billa</string>
+    <string name="settings_sowmya">Emani Sowmya   CS19B045            Imni</string>
+    <string name="settings_share"> Share With Your Friends</string>
+
+    <!-- Strings used for links -->
+    <string name="links">Links</string>
+
+    <!-- Strings used for activity_other_app -->
+    <string name="otherapps_head">Other Linmks</string>
+
+    <!-- Strings used for acivity_quiz-->
+    <string name="quiz_intro">Quiz</string>
+    <string name="quiz_score">Score : 0/100</string>
+    <string name="quiz_solved">Solved : 0/10</string>
+    <string name="quiz_submit">Submit</string>
+
+    <!-- Strings used for fragments for quiz_qestion -->
+    <string name="quiz_question">Question Here </string>
+    <string name="quiz_option1">Option 1</string>
+    <string name="quiz_option2">Option 2</string>
+    <string name="quiz_option3">Option 3</string>
+    <string name="quiz_option4">Option 4</string>
+
+
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
