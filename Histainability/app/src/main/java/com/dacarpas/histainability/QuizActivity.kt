@@ -19,6 +19,9 @@ class QuizActivity : AppCompatActivity() {
     private lateinit var RefreshQuiz : ImageButton
     private var SelectedOptions : Int = 0
 
+    private var questions : List<Question> = Supplier.questions_goal1
+
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,29 +36,52 @@ class QuizActivity : AppCompatActivity() {
         SelectedOptions = 0
 
 
+        val bundle: Bundle? = intent.extras
+        questions = when(bundle!!.getString("questions").toString()){
+            "1" -> Supplier.questions_goal1
+            "2" -> Supplier.questions_goal2
+            "3" -> Supplier.questions_goal3
+            "4" -> Supplier.questions_goal4
+            "5" -> Supplier.questions_goal5
+            "6" -> Supplier.questions_goal6
+            "7" -> Supplier.questions_goal7
+            "8" -> Supplier.questions_goal8
+            "9" -> Supplier.questions_goal9
+            "10" -> Supplier.questions_goal10
+            "11" -> Supplier.questions_goal11
+            "12" -> Supplier.questions_goal12
+            "13" -> Supplier.questions_goal13
+            "14" -> Supplier.questions_goal14
+            "15" -> Supplier.questions_goal15
+            "16" -> Supplier.questions_goal16
+
+            else -> Supplier.questions_goal17
+        }
+
+
         val layoutManager = LinearLayoutManager(this)
         layoutManager.orientation = LinearLayoutManager.VERTICAL
 
 
-        Score.text = "Submit to see Score"
-        Solved.text = "Solved: 0 / ${Supplier.questions.size}"
+        Score.text = "Score here"
+        Solved.text = "Solved: 0 / ${questions.size}"
 
         adapter = QuizAdapter(this,
-            Supplier.questions,
+            questions,
             object: QuizAdapter.AdapterOnClick{
                 override fun onClick(pos: Int, option: Int) {
 
-                    if(Supplier.questions[pos].user_choice == -1){
+                    if(questions[pos].user_choice == -1){
                         SelectedOptions ++
                     }
 
-                    Supplier.questions[pos].user_choice = option
+                    questions[pos].user_choice = option
 
 
-                    Solved.text = "Solved: ${SelectedOptions} / ${Supplier.questions.size}"
+                    Solved.text = "Solved: ${SelectedOptions} / ${questions.size}"
 
 
-                    Log.i("quizz", Supplier.questions.toString())
+                    Log.i("quizz", questions.toString())
 
                 }
 
@@ -70,17 +96,19 @@ class QuizActivity : AppCompatActivity() {
         SubmitQuiz.setOnClickListener {
             var score : Int = 0
 
-            Log.i("quizz", Supplier.questions.toString())
+            Log.i("quizz", questions.toString())
 
-            for(question in Supplier.questions){
+            for(question in questions){
                 if(question.correct_option == question.user_choice){
                     score ++
                 }
             }
 
-            var scoreInPer : Double = (score.toDouble() / Supplier.questions.size.toDouble()) * 100
+            var scoreInPer : Double = (score.toDouble() / questions.size.toDouble()) * 100
 
-            Score.text = "Score : ${scoreInPer} / 100 %"
+            scoreInPer = String.format("%.2f", scoreInPer).toDouble()
+
+            Score.text = "${scoreInPer} / 100 %"
 
         }
 
@@ -95,7 +123,7 @@ class QuizActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
 
-        for(question in Supplier.questions){
+        for(question in questions){
             question.user_choice = -1
         }
 
