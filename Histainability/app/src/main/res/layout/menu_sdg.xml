@@ -45,7 +45,6 @@
         android:layout_height="76dp"
         android:layout_marginStart="-74dp"
         android:layout_marginBottom="87dp"
-        android:background="#F31B1B"
         android:gravity="center"
         android:padding="0dp"
         android:text="Zero Hunger"
