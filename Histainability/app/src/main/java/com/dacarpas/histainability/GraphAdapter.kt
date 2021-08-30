@@ -18,17 +18,7 @@ class GraphAdapter(val context : Context, private val eventsList : List<EventDat
                 likeCount++
                 Toast.makeText(context, "\uD83D\uDC9C x $likeCount ", Toast.LENGTH_SHORT).show()
             }
-//            itemView.imgShare.setOnClickListener{
-//                val message: String = "Yo yo " + currentHobby!!.title
-//
-//                val intent = Intent()
-//                intent.action = Intent.ACTION_SEND
-//                intent.type = "text/plain"
-//                intent.putExtra(Intent.EXTRA_TEXT, message)
-//
-//                // creates a dialog for sharing to other apps
-//                context.startActivity(Intent.createChooser(intent, "Share to vros:"))
-//            }
+
         }
 
         fun setData(event: EventData?, position: Int) {
