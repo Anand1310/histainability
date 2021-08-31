@@ -45,7 +45,7 @@
     <string name="otherapps_head">ఇతర లింకులు</string>
 
     <!-- Strings used for acivity_quiz-->
-    <string name="quiz_heading">Select The Goal To \n Test Your Knowledge</string>
+    <string name="quiz_heading">మీ జ్ఞానాన్ని పరీక్షించడానికి \nలక్ష్యాన్ని ఎంచుకోండి</string>
     <string name="quiz_intro">క్విజ్</string>
     <string name="quiz_score">స్కోరు : 0/100</string>
     <string name="quiz_solved">పరిష్కరించబడింది : 0/10</string>
@@ -61,7 +61,7 @@
 
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">మొదటి భాగం</string>
-    <string name="second_fragment_label">v</string>
+    <string name="second_fragment_label">రెండవ భాగం</string>
     <string name="next">తరువాత</string>
     <string name="previous">మునుపటి</string>
 
