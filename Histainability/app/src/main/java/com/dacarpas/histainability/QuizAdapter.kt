@@ -5,14 +5,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.RadioButton
-import android.widget.RadioGroup
-
 import android.widget.TextView
-import android.widget.Toast
+
 import androidx.recyclerview.widget.RecyclerView
 
 class QuizAdapter(val context: Context,
-                  val Questions: List<Question>,
+                  private val questionsList: List<Question>,
                   val adapterOnClick: AdapterOnClick ) :
     RecyclerView.Adapter<QuizAdapter.MyViewHolder>() {
 
@@ -21,7 +19,7 @@ class QuizAdapter(val context: Context,
     }
 
     override fun getItemCount(): Int {
-        return Questions.size
+        return questionsList.size
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
@@ -30,7 +28,7 @@ class QuizAdapter(val context: Context,
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
-        val question = Questions[position]
+        val question = questionsList[position]
 
 
         holder.setData(question, position)
@@ -78,22 +76,22 @@ class QuizAdapter(val context: Context,
 
         fun setData(question: Question?, pos: Int){
             questionStatement.text = question!!.question
-            option1.text = question!!.options[0]
-            option2.text = question!!.options[1]
-            option3.text = question!!.options[2]
-            option4.text = question!!.options[3]
+            option1.text = question.options[0]
+            option2.text = question.options[1]
+            option3.text = question.options[2]
+            option4.text = question.options[3]
 
 
             this.currentPosition = pos
             this.currentQuestion = question
 
-            if(question!!.user_choice == -1){
+            if(question.user_choice == -1){
                 option1.isChecked = false
                 option2.isChecked = false
                 option3.isChecked = false
                 option4.isChecked = false
             }else{
-                when(question!!.user_choice){
+                when(question.user_choice){
                     0 -> option1.isChecked = true
                     1 -> option2.isChecked = true
                     2 -> option3.isChecked = true

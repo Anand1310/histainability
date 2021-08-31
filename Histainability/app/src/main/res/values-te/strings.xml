@@ -46,6 +46,7 @@
 
     <!-- Strings used for acivity_quiz-->
     <string name="quiz_heading">మీ జ్ఞానాన్ని పరీక్షించడానికి \nలక్ష్యాన్ని ఎంచుకోండి</string>
+    <string name="logo_description">Working Towards Sustainability Through The Eyes Of History</string>
     <string name="quiz_intro">క్విజ్</string>
     <string name="quiz_score">స్కోరు : 0/100</string>
     <string name="quiz_solved">పరిష్కరించబడింది : 0/10</string>

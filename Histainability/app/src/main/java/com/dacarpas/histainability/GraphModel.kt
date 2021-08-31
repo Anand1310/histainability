@@ -198,8 +198,8 @@ object Supplier2 {
         ),
         EventData(
             2009,
-            "Solar Enrgy Farms",
-            "Increase in solar enrgy farming. They operate as power plants, just like a natural gas power plant or other sources of energy generation that have generated electricity for consumers for the last century.",
+            "Solar Energy Farms",
+            "Increase in solar energy farming. They operate as power plants, just like a natural gas power plant or other sources of energy generation that have generated electricity for consumers for the last century.",
             1
         )
     )
@@ -311,7 +311,7 @@ object Supplier2 {
         ),
         EventData(
             2001,
-            "Gay Marraige",
+            "Gay Marriage",
             "Same-sex marriage, also known as gay marriage or homosexual marriage, is the marriage of two people of the same sex or gender, entered into in a civil or religious ceremony. There are records of same-sex marriage dating back to the first century. In the modern era, marriage equality was first granted to same-sex couples in the Netherlands on 1 April 2001.",
             1
         ),
@@ -366,7 +366,7 @@ object Supplier2 {
         ),
         EventData(
             2015,
-            "Paris Agreeement",
+            "Paris Agreement",
             "The Paris Agreement, often referred to as the Paris Accords or the Paris Climate Accords, is an international treaty on climate change, adopted in 2015. It covers climate change mitigation, adaptation, and finance.",
             1
         )
@@ -412,7 +412,7 @@ object Supplier2 {
         ),
         EventData(
             2018,
-            "Intergovernamental Panel on Climate Change",
+            "Intergovernmental Panel on Climate Change",
             "The United Nations body for assessing the science related to climate change, published a special report 'Global Warming of 1.5°C'",
             1
         ),
@@ -446,7 +446,7 @@ object Supplier2 {
         ),
         EventData(
             2015,
-            "Established Under Water constituion",
+            "Established Under Water constitution",
             "Conserve and sustainably use the oceans, seas and marine resources for sustainable development",
             1
         ),
@@ -510,7 +510,7 @@ object Supplier2 {
     val eventsGoal17 = listOf<EventData>(
         EventData(
             2015,
-            "Trade- Average agrcultural tariffs",
+            "Trade- Average agricultural tariffs",
             "The weighted average of applied tariffs has been decreasing over time, but still varies widely across regions and country groups on main product sectors. Average agricultural tariffs on imports coming into Asia, for instance, are the highest in the world, at around 27 per cent for Southern Asia and 20 per cent for Eastern Asia in 2015, under most-favoured nation status.",
             1
         ),

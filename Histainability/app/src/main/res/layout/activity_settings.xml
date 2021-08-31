@@ -160,7 +160,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/ivHistainaibilityLogo"
         android:layout_width="131dp"
         android:layout_height="139dp"
         android:layout_marginStart="50dp"
@@ -171,14 +171,25 @@
 
     <ImageButton
         android:id="@+id/ibShareButtonApp"
-        android:layout_width="117dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginBottom="50dp"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="212dp"
         android:background="@color/colorSettingShareButton"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@android:drawable/ic_menu_share"
         app:tint="@color/colorSettingShareTint" />
+
+    <ImageView
+        android:id="@+id/ivIITTLogo"
+        android:layout_width="144dp"
+        android:layout_height="163dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivHistainaibilityLogo"
+        app:srcCompat="@drawable/iitt_logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

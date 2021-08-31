@@ -6,7 +6,7 @@ import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
-class QUIZMenu : AppCompatActivity() {
+class QuizMenu : AppCompatActivity() {
 
     private lateinit var sdg1 : Button
     private lateinit var sdg2 : Button

@@ -3,6 +3,7 @@
     <!-- Strings used for activity_main and naviigations-->
     <string name="app_name">Histainability</string>
     <string name="title_activity_sdgmenu">SDGMenu</string>
+    <string name="logo_description">"Working Towards Sustainability \n Through The Eyes Of History"</string>
     <string name="homepage_graph">Graph</string>
     <string name="homepage_quiz">Quiz</string>
     <string name="homepage_settings">Settings</string>

@@ -46,6 +46,7 @@
 
     <!-- Strings used for acivity_quiz-->
     <string name="quiz_heading">अपने ज्ञान का परीक्षण करने के लिए एक लक्ष्य चुनें</string>
+    <string name="logo_description">इतिहास की नजरों से स्थिरता की दिशा में काम करना</string>
     <string name="quiz_intro">प्रश्नोत्तरी</string>
     <string name="quiz_score">स्कोर : 0/100</string>
     <string name="quiz_solved">फिक्स्ड : 0/10</string>
