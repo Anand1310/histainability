@@ -27,8 +27,6 @@ class SettingsActivity : AppCompatActivity() {
             }
         }
 
-<<<<<<< HEAD
-=======
         clSettingPage.ibShareButtonApp.setOnClickListener {
             // TODO(ADD GOOGLE PLAY LINK)
             val message: String = "GOOGLE PLAY LINK"
@@ -42,7 +40,6 @@ class SettingsActivity : AppCompatActivity() {
             startActivity(Intent.createChooser(intent, "Share to your vromis:"))
 
         }
->>>>>>> 7e196468a29413af670e5efcafcaac89fc594867
     }
 
     override fun onSupportNavigateUp(): Boolean {
