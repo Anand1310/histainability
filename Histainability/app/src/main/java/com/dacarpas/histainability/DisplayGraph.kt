@@ -39,6 +39,20 @@ class DisplayGraph : AppCompatActivity() {
         eventGoals = when (bundle.getString("goalNumber").toString()) {
             "1" -> Supplier2.eventsGoal1
             "2" -> Supplier2.eventsGoal2
+            "3" -> Supplier2.eventsGoal3
+            "4" -> Supplier2.eventsGoal4
+            "5" -> Supplier2.eventsGoal5
+            "6" -> Supplier2.eventsGoal6
+            "7" -> Supplier2.eventsGoal7
+            "8" -> Supplier2.eventsGoal8
+            "9" -> Supplier2.eventsGoal9
+            "10" -> Supplier2.eventsGoal10
+            "11" -> Supplier2.eventsGoal11
+            "12" -> Supplier2.eventsGoal12
+            "13" -> Supplier2.eventsGoal13
+            "14" -> Supplier2.eventsGoal14
+            "15" -> Supplier2.eventsGoal15
+            "16" -> Supplier2.eventsGoal16
             else -> Supplier2.eventsGoal17
         }
 
