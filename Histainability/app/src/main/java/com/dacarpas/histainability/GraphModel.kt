@@ -306,7 +306,7 @@ object Supplier2 {
         EventData(
             1979,
             "Mandal Commission",
-            "The Mandal Commission, the Socially and Educationally Backward Classes Commission (SEBC), was established in India on 1979 by the Janata Party government under Prime Minister Morarji Desai with a mandate to "identify the socially or educationally backward classes" of India.",
+            "The Mandal Commission, the Socially and Educationally Backward Classes Commission (SEBC), was established in India on 1979 by the Janata Party government under Prime Minister Morarji Desai with a mandate to identify the socially or educationally backward classes of India.",
             1
         ),
         EventData(
@@ -413,7 +413,7 @@ object Supplier2 {
         EventData(
             2018,
             "Intergovernamental Panel on Climate Change",
-            "The United Nations body for assessing the science related to climate change, published a special report "Global Warming of 1.5°C"",
+            "The United Nations body for assessing the science related to climate change, published a special report Global warming of 1.5°C",
             1
         ),
         EventData(

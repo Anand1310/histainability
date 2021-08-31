@@ -30,7 +30,7 @@ class SdgMenu : AppCompatActivity() {
 
             val intent = Intent(this, DisplayGraph::class.java)
             val bundle = Bundle()
-            bundle.putString("content", sdgGoals[1])
+            bundle.putString("content", sdgGoals[0])
             bundle.putString("goalNumber", "1")
             intent.putExtras(bundle)
 
@@ -42,7 +42,7 @@ class SdgMenu : AppCompatActivity() {
 
             val intent = Intent(this, DisplayGraph::class.java)
             val bundle = Bundle()
-            bundle.putString("content", sdgGoals[2])
+            bundle.putString("content", sdgGoals[1])
             bundle.putString("goalNumber", "2")
             intent.putExtras(bundle)
             startActivity(intent)
@@ -53,7 +53,7 @@ class SdgMenu : AppCompatActivity() {
 
             val intent = Intent(this, DisplayGraph::class.java)
             val bundle = Bundle()
-            bundle.putString("content", sdgGoals[3])
+            bundle.putString("content", sdgGoals[2])
             bundle.putString("goalNumber", "3")
             intent.putExtras(bundle)
             startActivity(intent)
@@ -64,7 +64,7 @@ class SdgMenu : AppCompatActivity() {
 
             val intent = Intent(this, DisplayGraph::class.java)
             val bundle = Bundle()
-            bundle.putString("content", sdgGoals[4])
+            bundle.putString("content", sdgGoals[3])
             bundle.putString("goalNumber", "4")
             intent.putExtras(bundle)
 
@@ -76,7 +76,7 @@ class SdgMenu : AppCompatActivity() {
 
             val intent = Intent(this, DisplayGraph::class.java)
             val bundle = Bundle()
-            bundle.putString("content", sdgGoals[5])
+            bundle.putString("content", sdgGoals[4])
             bundle.putString("goalNumber", "5")
             intent.putExtras(bundle)
 
@@ -88,7 +88,7 @@ class SdgMenu : AppCompatActivity() {
 
             val intent = Intent(this, DisplayGraph::class.java)
             val bundle = Bundle()
-            bundle.putString("content", sdgGoals[6])
+            bundle.putString("content", sdgGoals[5])
             bundle.putString("goalNumber", "6")
             intent.putExtras(bundle)
 
@@ -100,7 +100,7 @@ class SdgMenu : AppCompatActivity() {
 
             val intent = Intent(this, DisplayGraph::class.java)
             val bundle = Bundle()
-            bundle.putString("content", sdgGoals[7])
+            bundle.putString("content", sdgGoals[6])
             bundle.putString("goalNumber", "7")
             intent.putExtras(bundle)
 
@@ -112,7 +112,7 @@ class SdgMenu : AppCompatActivity() {
 
             val intent = Intent(this, DisplayGraph::class.java)
             val bundle = Bundle()
-            bundle.putString("content", sdgGoals[8])
+            bundle.putString("content", sdgGoals[7])
             bundle.putString("goalNumber", "8")
             intent.putExtras(bundle)
 
@@ -124,7 +124,7 @@ class SdgMenu : AppCompatActivity() {
 
             val intent = Intent(this, DisplayGraph::class.java)
             val bundle = Bundle()
-            bundle.putString("content", sdgGoals[9])
+            bundle.putString("content", sdgGoals[8])
             bundle.putString("goalNumber", "9")
             intent.putExtras(bundle)
 
@@ -136,7 +136,7 @@ class SdgMenu : AppCompatActivity() {
 
             val intent = Intent(this, DisplayGraph::class.java)
             val bundle = Bundle()
-            bundle.putString("content", sdgGoals[10])
+            bundle.putString("content", sdgGoals[9])
             bundle.putString("goalNumber", "10")
             intent.putExtras(bundle)
 
@@ -148,7 +148,7 @@ class SdgMenu : AppCompatActivity() {
 
             val intent = Intent(this, DisplayGraph::class.java)
             val bundle = Bundle()
-            bundle.putString("content", sdgGoals[11])
+            bundle.putString("content", sdgGoals[10])
             bundle.putString("goalNumber", "11")
             intent.putExtras(bundle)
 
@@ -160,7 +160,7 @@ class SdgMenu : AppCompatActivity() {
 
             val intent = Intent(this, DisplayGraph::class.java)
             val bundle = Bundle()
-            bundle.putString("content", sdgGoals[12])
+            bundle.putString("content", sdgGoals[11])
             bundle.putString("goalNumber", "12")
             intent.putExtras(bundle)
 
@@ -171,7 +171,7 @@ class SdgMenu : AppCompatActivity() {
             Toast.makeText(this, "Loading...", Toast.LENGTH_SHORT).show()
 
             val intent = Intent(this, DisplayGraph::class.java)
-            intent.putExtra("content", sdgGoals[13])
+            intent.putExtra("content", sdgGoals[12])
             intent.putExtra("goalNumber", 13)
 
             startActivity(intent)
@@ -181,7 +181,7 @@ class SdgMenu : AppCompatActivity() {
             Toast.makeText(this, "Loading...", Toast.LENGTH_SHORT).show()
 
             val intent = Intent(this, DisplayGraph::class.java)
-            intent.putExtra("content", sdgGoals[14])
+            intent.putExtra("content", sdgGoals[13])
             intent.putExtra("goalNumber", 14)
 
             startActivity(intent)
@@ -191,7 +191,7 @@ class SdgMenu : AppCompatActivity() {
             Toast.makeText(this, "Loading...", Toast.LENGTH_SHORT).show()
 
             val intent = Intent(this, DisplayGraph::class.java)
-            intent.putExtra("content", sdgGoals[15])
+            intent.putExtra("content", sdgGoals[14])
             intent.putExtra("goalNumber", 15)
 
             startActivity(intent)
@@ -201,7 +201,7 @@ class SdgMenu : AppCompatActivity() {
             Toast.makeText(this, "Loading...", Toast.LENGTH_SHORT).show()
 
             val intent = Intent(this, DisplayGraph::class.java)
-            intent.putExtra("content", sdgGoals[16])
+            intent.putExtra("content", sdgGoals[15])
             intent.putExtra("goalNumber", 16)
 
             startActivity(intent)
@@ -212,7 +212,7 @@ class SdgMenu : AppCompatActivity() {
 
             val intent = Intent(this, DisplayGraph::class.java)
             val bundle = Bundle()
-            bundle.putString("content", sdgGoals[17])
+            bundle.putString("content", sdgGoals[16])
             bundle.putString("goalNumber", "17")
             intent.putExtras(bundle)
             startActivity(intent)
