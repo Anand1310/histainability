@@ -20,7 +20,6 @@
         <activity android:name=".SdgMenu" />
         <activity android:name=".DisplayGraph" />
         <activity android:name=".LinkActivity" />
-        <activity android:name=".temp" />
         <activity android:name=".QuizActivity"/>
         <activity android:name=".SettingsActivity"/>
         <activity android:name=".QUIZMenu"/>

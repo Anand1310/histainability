@@ -7,4 +7,45 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+<!--    Home-->
+    <color name="colorBackground">#FBFAFA</color>
+    <color name="colorHomeMenu">#D3D1D1</color>
+    <color name="colorHomeList">#FCFBFB</color>
+    <color name="colorHomeListText">#32877C</color>
+
+<!--    SDG Menu-->
+    <color name="colorSDGmenuTitle">#2196F3</color>
+
+<!--    Quiz-->
+    <color name="colorQuizHead">#32877C</color>
+    <color name="colorLinearLayout2">@color/teal_200</color>
+    <color name="colorScore">@color/white</color>
+    <color name="colorScoreText">#2B2A2A</color>
+    <color name="colorQuizQuestion">@color/teal_700</color>
+    <color name="colorQuizButton">#C52B2B</color>
+    <color name="colorCardOption">#F2ECEC</color>
+    <color name="colorCardOptionText">#003231</color>
+    <color name="colorQuizSubmit">@color/white</color>
+
+<!--    Settings-->
+    <color name="colorSwitchText">@color/black</color>
+    <color name="colorTextView">#071355</color>
+    <color name="colorTextViewText">#F2ECEC</color>
+    <color name="colorSettingText">#554A4A</color>
+    <color name="colorSettingShareButton">@color/white</color>
+    <color name="colorSettingShareTint">#0F1010</color>
+
+<!--    Link-->
+    <color name="colorCardView">@android:color/white</color>
+    <color name="colorLinkTitle">#E91E63</color>
+    <color name="colorCardTextTitle">#616161</color>
+    <color name="colorCardTextDescription">#616161</color>
+
+<!--    Graph-->
+    <color name="colorGraphCardBackground">#FBFAFA</color>
+    <color name="colorGraphTitleBackground">#AAC986</color>
+    <color name="colorGraphTitleText">#554A4A</color>
+    <color name="colorGraphDescriptionBackground">#C4E1A2</color>
+    <color name="colorGraphDescriptionText">#554A4A</color>
 </resources>

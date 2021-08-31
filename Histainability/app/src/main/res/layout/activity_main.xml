@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FBFAFA"
     android:orientation="vertical"
+    android:background="@color/colorBackground"
     android:padding="20dp">
 
     <ImageView
@@ -23,7 +23,7 @@
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#D3D1D1"
+        android:background="@color/colorHomeMenu"
         android:orientation="vertical"
         android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,11 +38,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
-            android:background="#FCFBFB"
+            android:background="@color/colorHomeList"
             android:padding="5dp"
             android:text="@string/homepage_graph"
             android:textAlignment="center"
-            android:textColor="#32877C"
+            android:textColor="@color/colorHomeListText"
             android:textSize="25dp"
             android:textStyle="bold" />
 
@@ -51,11 +51,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
-            android:background="#FCFBFB"
+            android:background="@color/colorHomeList"
             android:padding="5dp"
             android:text="@string/homepage_quiz"
             android:textAlignment="center"
-            android:textColor="#32877C"
+            android:textColor="@color/colorHomeListText"
             android:textSize="25dp"
             android:textStyle="bold" />
 
@@ -64,11 +64,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
-            android:background="#FCFBFB"
+            android:background="@color/colorHomeList"
             android:padding="5dp"
             android:text="@string/homepage_settings"
             android:textAlignment="center"
-            android:textColor="#32877C"
+            android:textColor="@color/colorHomeListText"
             android:textSize="25dp"
             android:textStyle="bold" />
 
@@ -77,12 +77,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
-            android:background="#FCFBFB"
+            android:background="@color/colorHomeList"
             android:padding="5dp"
             android:text="@string/homepage_other"
             android:textAlignment="center"
-            android:textColor="#32877C"
-
+            android:textColor="@color/colorHomeListText"
             android:textSize="25dp"
             android:textStyle="bold" />
     </LinearLayout>

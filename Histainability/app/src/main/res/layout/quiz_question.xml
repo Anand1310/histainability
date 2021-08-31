@@ -3,19 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="5dp">
+    android:layout_margin="5dp"
+    android:background="@color/colorBackground">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="2dp"
-        android:background="@color/cardview_light_background"
+        android:background="@color/colorBackground"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
-
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
 
@@ -25,12 +25,11 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
-
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
-            android:background="@color/teal_700"
+            android:background="@color/colorQuizQuestion"
             android:padding="10dp"
             android:text="@string/quiz_question"
             android:textAlignment="center"
@@ -47,40 +46,40 @@
             android:layout_marginEnd="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
-            android:background="@color/cardview_dark_background"
+            android:background="@color/colorBackground"
             android:padding="10dp">
 
             <RadioButton
                 android:id="@+id/option1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#8368B4"
+                android:background="@color/colorCardOption"
                 android:text="@string/quiz_option1"
-                android:textColor="@color/cardview_light_background" />
+                android:textColor="@color/colorCardOptionText" />
 
             <RadioButton
                 android:id="@+id/option2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#8368B4"
+                android:background="@color/colorCardOption"
                 android:text="@string/quiz_option2"
-                android:textColor="@color/cardview_light_background" />
+                android:textColor="@color/colorCardOptionText" />
 
             <RadioButton
                 android:id="@+id/option3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#8368B4"
+                android:background="@color/colorCardOption"
                 android:text="@string/quiz_option3"
-                android:textColor="@color/cardview_light_background" />
+                android:textColor="@color/colorCardOptionText" />
 
             <RadioButton
                 android:id="@+id/option4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#8368B4"
+                android:background="@color/colorCardOption"
                 android:text="@string/quiz_option4"
-                android:textColor="@color/cardview_light_background" />
+                android:textColor="@color/colorCardOptionText" />
 
         </RadioGroup>
 

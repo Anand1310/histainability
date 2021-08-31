@@ -151,6 +151,7 @@ class DisplayGraph : AppCompatActivity() {
         lineChart.setPinchZoom(true)
 
         lineChart.description.text = "Historical Event"
+        
         lineChart.setNoDataText("No forex yet!")
 
         lineChart.animateX(1000, Easing.EaseInExpo)
