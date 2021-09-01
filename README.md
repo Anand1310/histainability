@@ -3,6 +3,13 @@
 
 *Working towards sustainability through the eyes of history*
 
+---
+![main_menu_light_eng](./images/main_light_eng.jpeg?raw=true "main_menu_light_eng") 
+![main_menu_dark_eng](./images/main_dark_eng.jpeg?raw=true "main_menu_dark_eng")
+![main_dark_hi](./images/main_dark_hi.jpeg?raw=true "main_dark_hi")
+
+---
+
 
 ## Introduction 
 
@@ -39,12 +46,15 @@ The information collected from Google N-gram depicts historical reasons for chan
 - That data is plotted in graph on UI along with **Event cards**
 - Each Event card contains information regarding historical event which had a significant impact on the way people think about that particular SDG
 - This tries to plot and analyse the patterns in the events which had a positive/negative impact.
+![sdg_menu_dark_telugu](./images/sdg_menu_dark_telugu.jpeg?raw=true "sdg_menu_dark_telugu")
+![graph_dark_eng](./images/graph_dark_eng.jpeg?raw=true "graph_dark_eng")
 
 ### Quiz
 
 - Once user is aware of the events, he/she can test this knowledge with the help of quiz we prepared
 - User can again select a SDG and then take the quiz and find result
 
+![quiz_light_eng](./images/quiz_light_eng.jpeg?raw=true "quiz_light_eng")
 ### Other Apps
 
 - This section contains other informative apps about SDG
@@ -53,6 +63,7 @@ The information collected from Google N-gram depicts historical reasons for chan
 
 - For better user experience we implemented dark and light mode feature
 - We also implemented multi language system (Hindi/English/Telugu) in our app to increase useability and accessability
+![setting_light_eng](./images/setting_light_eng.jpeg?raw=true "setting_light_eng")
 
 
 ---
