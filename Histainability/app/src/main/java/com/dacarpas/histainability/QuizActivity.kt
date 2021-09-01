@@ -13,11 +13,11 @@ class QuizActivity : AppCompatActivity() {
 
     private lateinit var quizQuestion : RecyclerView
     private lateinit var adapter : QuizAdapter
-    private lateinit var Score : TextView
-    private lateinit var Solved : TextView
-    private lateinit var SubmitQuiz : Button
-    private lateinit var RefreshQuiz : ImageButton
-    private var SelectedOptions : Int = 0
+    private lateinit var score : TextView
+    private lateinit var solved : TextView
+    private lateinit var submitQuiz : Button
+    private lateinit var refreshQuiz : ImageButton
+    private var selectedOptions : Int = 0
 
     private var questions : List<Question> = Supplier.questions_goal1
 
@@ -27,11 +27,11 @@ class QuizActivity : AppCompatActivity() {
         setContentView(R.layout.activity_quiz)
 
         quizQuestion = findViewById(R.id.quiz_questions)
-        Score = findViewById(R.id.quiz_score)
-        Solved = findViewById(R.id.quiz_solved)
-        SubmitQuiz = findViewById(R.id.submit_quiz)
-        RefreshQuiz = findViewById(R.id.refresh_button)
-        SelectedOptions = 0
+        score = findViewById(R.id.quiz_score)
+        solved = findViewById(R.id.quiz_solved)
+        submitQuiz = findViewById(R.id.submit_quiz)
+        refreshQuiz = findViewById(R.id.refresh_button)
+        selectedOptions = 0
 
         val actionBar = supportActionBar
         actionBar!!.title = "Histainability"
@@ -66,8 +66,8 @@ class QuizActivity : AppCompatActivity() {
         layoutManager.orientation = LinearLayoutManager.VERTICAL
 
 
-        Score.text = "Score here"
-        Solved.text = "Solved: 0 / ${questions.size}"
+        score.text = "Score here"
+        solved.text = "Solved: 0 / ${questions.size}"
 
         adapter = QuizAdapter(this,
             questions,
@@ -75,16 +75,16 @@ class QuizActivity : AppCompatActivity() {
                 override fun onClick(pos: Int, option: Int) {
 
                     if(questions[pos].user_choice == -1){
-                        SelectedOptions ++
+                        selectedOptions ++
                     }
 
                     questions[pos].user_choice = option
 
 
-                    Solved.text = "Solved: ${SelectedOptions} / ${questions.size}"
+                    solved.text = "Solved: $selectedOptions / ${questions.size}"
 
 
-                    Log.i("quizz", questions.toString())
+//                    Log.i("Quiz", questions.toString())
 
                 }
 
@@ -96,10 +96,10 @@ class QuizActivity : AppCompatActivity() {
         adapter.notifyDataSetChanged()
         quizQuestion.layoutManager = layoutManager
 
-        SubmitQuiz.setOnClickListener {
+        submitQuiz.setOnClickListener {
             var score : Int = 0
 
-            Log.i("quizz", questions.toString())
+//            Log.i("Quiz", questions.toString())
 
             for(question in questions){
                 if(question.correct_option == question.user_choice){
@@ -111,13 +111,13 @@ class QuizActivity : AppCompatActivity() {
 
             scoreInPer = String.format("%.2f", scoreInPer).toDouble()
 
-            Score.text = "${scoreInPer} / 100 %"
+            this.score.text = "$scoreInPer / 100 %"
 
         }
 
-        RefreshQuiz.setOnClickListener {
-            finish();
-            startActivity(getIntent());
+        refreshQuiz.setOnClickListener {
+            finish()
+            startActivity(getIntent())
         }
 
 

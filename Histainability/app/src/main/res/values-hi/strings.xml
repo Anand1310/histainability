@@ -2,69 +2,70 @@
 <resources>
 
     <!-- Strings used for activity_main and naviigations-->
-    <string name="app_name">Histainability</string>
-    <string name="title_activity_sdgmenu">SDGMenu</string>
-    <string name="homepage_graph">Graph</string>
-    <string name="homepage_quiz">Quiz</string>
-    <string name="homepage_settings">Settings</string>
-    <string name="homepage_other">Other Apps</string>
+    <string name="app_name">हिस्टिनेबिलिटी</string>
+    <string name="title_activity_sdgmenu">SDG मेन्यू</string>
+    <string name="homepage_graph">ग्राफ़</string>
+    <string name="homepage_quiz">प्रश्नोत्तरी</string>
+    <string name="homepage_settings">समायोजन</string>
+    <string name="homepage_other">दूसरे एप्लिकेशन</string>
 
     <!-- Strings used for sdgmenu -->
-    <string name="sdgmenu_head">Select The Goal You Would Like To Explore</string>
-    <string name="sdgmenu_sdg1">No Poverty</string>
-    <string name="sdgmenu_sdg2">Zero Hunger</string>
-    <string name="sdgmenu_sdg3">Good Health And Well-Being</string>
-    <string name="sdgmenu_sdg4">Quality Education</string>
-    <string name="sdgmenu_sdg5">Gender Equality</string>
-    <string name="sdgmenu_sdg6">Clean Water And Sanitation</string>
-    <string name="sdgmenu_sdg7">Affordable And Clean Energy</string>
-    <string name="sdgmenu_sdg8">Decent Work And Economic Growth</string>
-    <string name="sdgmenu_sdg9">Industry, Innovation And Infrastructure</string>
-    <string name="sdgmenu_sdg10">Reduced Inequalities</string>
-    <string name="sdgmenu_sdg11">Sustainable Cities And Communities</string>
-    <string name="sdgmenu_sdg12">Responsible Consumption And Production</string>
-    <string name="sdgmenu_sdg13">Climate Action</string>
-    <string name="sdgmenu_sdg14">Life Below Water</string>
-    <string name="sdgmenu_sdg15">Life On Land</string>
-    <string name="sdgmenu_sdg16">Peace, Justice And Strong Institutions</string>
-    <string name="sdgmenu_sdg17">Partnerships For The Goals</string>
+    <string name="sdgmenu_head">वह लक्ष्य चुनें जिसे आप एक्सप्लोर करना चाहते हैं</string>
+    <string name="sdgmenu_sdg1">गरीबी नहीं</string>
+    <string name="sdgmenu_sdg2">शून्य भूख</string>
+    <string name="sdgmenu_sdg3">अच्छा स्वास्थ्य और कल्याण</string>
+    <string name="sdgmenu_sdg4">श्रेष्ठ शिक्षा</string>
+    <string name="sdgmenu_sdg5">लैंगिक समानता</string>
+    <string name="sdgmenu_sdg6">स्वच्छ जल और स्वच्छता</string>
+    <string name="sdgmenu_sdg7">सस्ती और स्वच्छ ऊर्जा</string>
+    <string name="sdgmenu_sdg8">अच्छा काम और आर्थिक विकास</string>
+    <string name="sdgmenu_sdg9">उद्योग, नवाचार और बुनियादी ढांचा</string>
+    <string name="sdgmenu_sdg10">कम असमानता</string>
+    <string name="sdgmenu_sdg11">सतत शहर और समुदाय</string>
+    <string name="sdgmenu_sdg12">जिम्मेदार खपत और उत्पादन</string>
+    <string name="sdgmenu_sdg13">वायुमंडलीय क्रिया</string>
+    <string name="sdgmenu_sdg14">पानी के नीचे जीवन</string>
+    <string name="sdgmenu_sdg15">धरती पर जीवन</string>
+    <string name="sdgmenu_sdg16">शांति, न्याय और मजबूत संस्थान</string>
+    <string name="sdgmenu_sdg17">लक्ष्यों के लिए साझेदारी</string>
 
     <!-- Strings used for activity_settings -->
-    <string name="settings_dark">    Dark Mode</string>
-    <string name="settings_aboutus">About Us</string>
-    <string name="settings_adi">Aditya Sharma CS19B001          Panda</string>
-    <string name="settings_amit">Amit Kesari   CS19B003       Robo</string>
-    <string name="settings_anand">Anu Anand Annu   CS19B044            Billa</string>
-    <string name="settings_sowmya">Emani Sowmya   CS19B045            Imni</string>
-    <string name="settings_share"> Share With Your Friends</string>
+    <string name="settings_dark">    डार्क मोड</string>
+    <string name="settings_aboutus">हमारे बारे में</string>
+    <string name="settings_adi">आदित्य शर्मा \n (पांडा)</string>
+    <string name="settings_amit">अमित केसरी \n (रोबोट)</string>
+    <string name="settings_anand">अनु आनंद अन्नु \n (बिल्ला)</string>
+    <string name="settings_sowmya">एमानी सौम्या \n (डोगे)</string>
+    <string name="settings_share"> अपने मित्रों के साथ साझा करें</string>
 
     <!-- Strings used for links -->
-    <string name="links">Links</string>
+    <string name="links">लिंक</string>
 
     <!-- Strings used for activity_other_app -->
-    <string name="otherapps_head">Other Linmks</string>
+    <string name="otherapps_head">अन्य लिंक</string>
 
     <!-- Strings used for acivity_quiz-->
-    <string name="quiz_heading">Select The Goal To \n Test Your Knowledge</string>
-    <string name="quiz_intro">Quiz</string>
-    <string name="quiz_score">Score : 0/100</string>
-    <string name="quiz_solved">Solved : 0/10</string>
-    <string name="quiz_submit">Submit</string>
+    <string name="quiz_heading">अपने ज्ञान का परीक्षण करने के लिए एक लक्ष्य चुनें</string>
+    <string name="logo_description">इतिहास की नजरों से स्थिरता की दिशा में काम करना</string>
+    <string name="quiz_intro">प्रश्नोत्तरी</string>
+    <string name="quiz_score">स्कोर : 0/100</string>
+    <string name="quiz_solved">फिक्स्ड : 0/10</string>
+    <string name="quiz_submit">प्रस्तुत करना</string>
 
     <!-- Strings used for fragments for quiz_qestion -->
-    <string name="quiz_question">Question Here </string>
-    <string name="quiz_option1">Option 1</string>
-    <string name="quiz_option2">Option 2</string>
-    <string name="quiz_option3">Option 3</string>
-    <string name="quiz_option4">Option 4</string>
+    <string name="quiz_question">ప్రశ్న ఇక్కడ </string>
+    <string name="quiz_option1">ఎంపిక 1</string>
+    <string name="quiz_option2">ఎంపిక 2</string>
+    <string name="quiz_option3">ఎంపిక 3</string>
+    <string name="quiz_option4">ఎంపిక 4</string>
 
 
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    <string name="first_fragment_label">पहला भाग</string>
+    <string name="second_fragment_label">दूसरा भाग</string>
+    <string name="next">अगला</string>
+    <string name="previous">पहले का</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="hello_first_fragment">पहला भाग हैलो</string>
+    <string name="hello_second_fragment">नमस्ते दूसरा भाग। Arg: %1$s</string>
 </resources>

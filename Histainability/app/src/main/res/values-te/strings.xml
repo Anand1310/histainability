@@ -32,10 +32,10 @@
     <!-- Strings used for activity_settings -->
     <string name="settings_dark">    డార్క్ మోడ్</string>
     <string name="settings_aboutus">మా గురించి</string>
-    <string name="settings_adi">ఆదిత్య శర్మ CS19B001          పాండా</string>
-    <string name="settings_amit">అమిత్ కేసరి   CS19B003       రోబో</string>
-    <string name="settings_anand">అను ఆనంద్ అన్ను   CS19B044            బిల్లా</string>
-    <string name="settings_sowmya">ఈమని సౌమ్య   CS19B045            ఇమ్ని</string>
+    <string name="settings_adi">ఆదిత్య శర్మ \n (పాండా)</string>
+    <string name="settings_amit">అమిత్ కేసరి \n (రోబో)</string>
+    <string name="settings_anand">అను ఆనంద్ అన్ను \n (బిల్లా)</string>
+    <string name="settings_sowmya">ఈమని సౌమ్య \n (ఇమ్ని)</string>
     <string name="settings_share"> మీ స్నేహితులతో పంచుకోండి</string>
 
     <!-- Strings used for links -->
@@ -46,6 +46,7 @@
 
     <!-- Strings used for acivity_quiz-->
     <string name="quiz_heading">మీ జ్ఞానాన్ని పరీక్షించడానికి \nలక్ష్యాన్ని ఎంచుకోండి</string>
+    <string name="logo_description">Working Towards Sustainability Through The Eyes Of History</string>
     <string name="quiz_intro">క్విజ్</string>
     <string name="quiz_score">స్కోరు : 0/100</string>
     <string name="quiz_solved">పరిష్కరించబడింది : 0/10</string>
