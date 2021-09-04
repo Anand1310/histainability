@@ -26,11 +26,6 @@ class DisplayGraph : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.graph_display)
 
-        // back button
-        val actionBar = supportActionBar
-        actionBar!!.title = "Histainability"
-        actionBar.setHomeAsUpIndicator(R.drawable.back_arrow)
-        actionBar.setDisplayHomeAsUpEnabled(true)
 
         // receive data sent by intent
         val bundle: Bundle? = intent.extras
@@ -54,7 +49,15 @@ class DisplayGraph : AppCompatActivity() {
             "15" -> Supplier2.eventsGoal15
             "16" -> Supplier2.eventsGoal16
             else -> Supplier2.eventsGoal17
+
         }
+
+        // back button and action bar heading
+        val actionBar = supportActionBar
+        actionBar!!.title = "Histainability : SDG-${bundle.getString("goalNumber").toString()}"
+        actionBar.setHomeAsUpIndicator(R.drawable.back_arrow)
+        actionBar.setDisplayHomeAsUpEnabled(true)
+
 
         makeCards()
 //        Toast.makeText(this, "i receive: $content", Toast.LENGTH_LONG).show()
@@ -77,7 +80,7 @@ class DisplayGraph : AppCompatActivity() {
 
         // calling the adapter, passing this activity as context and the array of data
 
-        this.eventGoals = this.eventGoals.sortedWith(compareBy { it.year })
+        this.eventGoals = this.eventGoals.sortedByDescending { it.year }
         val adapter = GraphAdapter(this, this.eventGoals)
         rvHistoryEvents.adapter = adapter
         rvHistoryEvents.setHasFixedSize(true) // use for performance

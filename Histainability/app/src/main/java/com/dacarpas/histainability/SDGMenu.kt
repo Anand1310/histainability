@@ -19,7 +19,7 @@ class SdgMenu : AppCompatActivity() {
 
         // back button
         val actionBar = supportActionBar
-        actionBar!!.title = "Histainability"
+        actionBar!!.title = "Histainability : Graph"
         actionBar.setHomeAsUpIndicator(R.drawable.back_arrow)
         actionBar.setDisplayHomeAsUpEnabled(true)
 
@@ -170,7 +170,7 @@ class SdgMenu : AppCompatActivity() {
 
             val intent = Intent(this, DisplayGraph::class.java)
             intent.putExtra("content", sdgGoals[12])
-            intent.putExtra("goalNumber", 13)
+            intent.putExtra("goalNumber", "13")
 
             startActivity(intent)
         }
@@ -180,7 +180,7 @@ class SdgMenu : AppCompatActivity() {
 
             val intent = Intent(this, DisplayGraph::class.java)
             intent.putExtra("content", sdgGoals[13])
-            intent.putExtra("goalNumber", 14)
+            intent.putExtra("goalNumber", "14")
 
             startActivity(intent)
         }
@@ -190,7 +190,7 @@ class SdgMenu : AppCompatActivity() {
 
             val intent = Intent(this, DisplayGraph::class.java)
             intent.putExtra("content", sdgGoals[14])
-            intent.putExtra("goalNumber", 15)
+            intent.putExtra("goalNumber", "15")
 
             startActivity(intent)
         }
@@ -200,7 +200,7 @@ class SdgMenu : AppCompatActivity() {
 
             val intent = Intent(this, DisplayGraph::class.java)
             intent.putExtra("content", sdgGoals[15])
-            intent.putExtra("goalNumber", 16)
+            intent.putExtra("goalNumber", "16")
 
             startActivity(intent)
         }

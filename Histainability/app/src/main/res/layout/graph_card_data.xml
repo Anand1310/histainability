@@ -5,18 +5,18 @@
     android:id="@+id/clEventCard"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="12dp">
+    android:padding="0dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorGraphCardBackground"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         android:paddingLeft="30dp"
         android:paddingTop="10dp"
         android:paddingRight="30dp"
         android:paddingBottom="10dp"
-        android:background="@color/colorGraphCardBackground"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="10dp">
 
@@ -47,7 +47,11 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@color/colorGraphDescriptionBackground"
+                android:gravity="fill_horizontal"
                 android:padding="14dp"
+                android:shadowColor="#CD1818"
+                android:shadowDx="10"
+                android:shadowDy="10"
                 android:text="Description - large t xtss"
                 android:textColor="@color/colorGraphDescriptionText"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -62,7 +66,7 @@
                 android:layout_weight="1"
                 android:padding="2dp"
                 android:text="Year"
-                android:textColor="#E91E63"
+                android:textColor="#009688"
                 android:textSize="12sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />

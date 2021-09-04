@@ -57,7 +57,7 @@
             android:textSize="25dp"
             android:textStyle="bold"
             app:backgroundTint="#FBFBFB"
-            app:cornerRadius="40dp" />
+            app:cornerRadius="20dp" />
 
         <Button
             android:id="@+id/quiz_text"
@@ -112,6 +112,7 @@
         android:layout_marginBottom="30dp"
         android:gravity="center"
         android:text="@string/logo_description"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

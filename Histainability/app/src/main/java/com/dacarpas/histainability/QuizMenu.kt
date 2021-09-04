@@ -52,7 +52,7 @@ class QuizMenu : AppCompatActivity() {
 
         // back button
         val actionBar = supportActionBar
-        actionBar!!.title = "Histainability"
+        actionBar!!.title = "Histainability : Quiz"
         actionBar.setHomeAsUpIndicator(R.drawable.back_arrow)
         actionBar.setDisplayHomeAsUpEnabled(true)
 

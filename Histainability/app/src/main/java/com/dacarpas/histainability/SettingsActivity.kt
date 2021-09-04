@@ -14,7 +14,7 @@ class SettingsActivity : AppCompatActivity() {
 
 
         val actionBar = supportActionBar
-        actionBar!!.title = "Histainability"
+        actionBar!!.title = "Histainability : Settings"
         actionBar.setHomeAsUpIndicator(R.drawable.back_arrow)
         actionBar.setDisplayHomeAsUpEnabled(true)
 
