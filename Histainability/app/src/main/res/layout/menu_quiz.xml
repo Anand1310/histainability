@@ -177,7 +177,7 @@
         android:text="@string/sdgmenu_sdg9"
         android:textAllCaps="false"
         android:textColor="#100F0F"
-        android:textSize="10sp"
+        android:textSize="9sp"
         android:textStyle="bold"
         app:backgroundTint="#FB8C00"
         app:cornerRadius="3dp"

@@ -4,9 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/colorBackground"
-    android:padding="20dp">
+    android:orientation="vertical"
+    android:padding="0dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="568dp"
+        android:layout_height="878dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gradient"  />
 
     <ImageView
         android:id="@+id/App_Logo"
@@ -23,7 +33,9 @@
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorHomeMenu"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/shape"
         android:orientation="vertical"
         android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,57 +44,65 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.932">
 
-        <TextView
+        <Button
             android:id="@+id/graph_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
-            android:background="@color/colorHomeList"
             android:padding="5dp"
             android:text="@string/homepage_graph"
             android:textAlignment="center"
+            android:textAllCaps="false"
             android:textColor="@color/colorHomeListText"
             android:textSize="25dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:backgroundTint="#FBFBFB"
+            app:cornerRadius="40dp" />
 
-        <TextView
+        <Button
             android:id="@+id/quiz_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
-            android:background="@color/colorHomeList"
             android:padding="5dp"
             android:text="@string/homepage_quiz"
             android:textAlignment="center"
             android:textColor="@color/colorHomeListText"
             android:textSize="25dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            app:backgroundTint="#FFFFFF"
+            app:cornerRadius="40dp" />
 
-        <TextView
+        <Button
             android:id="@+id/settings_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
-            android:background="@color/colorHomeList"
             android:padding="5dp"
             android:text="@string/homepage_settings"
             android:textAlignment="center"
+            android:textAllCaps="false"
             android:textColor="@color/colorHomeListText"
             android:textSize="25dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:backgroundTint="#FFFFFF"
+            app:cornerRadius="40dp" />
 
-        <TextView
+        <Button
             android:id="@+id/other_app"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
-            android:background="@color/colorHomeList"
             android:padding="5dp"
             android:text="@string/homepage_other"
             android:textAlignment="center"
+            android:textAllCaps="false"
             android:textColor="@color/colorHomeListText"
             android:textSize="25dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:backgroundTint="#FFFFFF"
+            app:cornerRadius="40dp" />
     </LinearLayout>
 
     <TextView
@@ -95,4 +115,5 @@
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

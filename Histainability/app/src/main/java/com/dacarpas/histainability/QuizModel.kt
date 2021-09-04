@@ -379,151 +379,99 @@ object Supplier {
     val questions_goal13 = listOf<Question>(
         Question(
             "Where is Scripps Institution of Oceanography located?",
-            listOf("Hawaii", "California", "Brazil", "Dubai"),
-            0,
-            -1
-        ),
-        Question(
-            "What is life ?",
-            listOf("Joke", "Pain", "Opposite of good", "All of the above"),
+            listOf("Hawaii", "California", "Brazil","Dubai"),
             1,
-            -1
-        ),
+            -1),
         Question(
-            "What is life ?",
-            listOf("Joke", "Pain", "Opposite of good", "All of the above"),
+            "When is Intergovernmental Panel on Climate Change (IPCC) established?",
+            listOf("1979", "1982", "1988","1990"),
             2,
-            -1
-        ),
-
+            -1),
+        Question(
+            "Name the Protocol that operationalizes the UN Framework Convention on Climate Change to limit and reduce greenhouse gases (GHG) emissions.",
+            listOf("Kyoto", "Piranto", "Skuto","None of these"),
+            0,
+            -1),
+        Question(
+            "What is the warmest year on record?",
+            listOf("2016", "2000", "2009","2020"),
+            3,
+            -1),
         )
 
     val questions_goal14 = listOf<Question>(
         Question(
-            "What is life SDG14 ?",
-            listOf("Joke", "Pain", "Opposite of good", "All of the above"),
-            0,
-            -1
-        ),
+            "What is the full form of EEZ?",
+            listOf("Executive economic zone", "Exclusive economic zone", "Economic establishment zone","None"),
+            1,
+            -1),
         Question(
-            "What is life ?",
-            listOf("Joke", "Pain", "Opposite of good", "All of the above"),
+            "When was Life below water goal established?",
+            listOf("2016", "2017", "2015","2014"),
             2,
-            -1
-        ),
+            -1),
         Question(
-            "What is life ?",
-            listOf("Joke", "Pain", "Opposite of good", "All of the above"),
+            "Which country along with Fiji co-hosted the UN conference to support the implementation of this goal?",
+            listOf("Sweden", "German", "Italy","France"),
+            0,
+            -1),
+        Question(
+            "What are the goal(s) that directive has for the Europe's seas?",
+            listOf("healthy", "clean", "productive","All of the above"),
             3,
-            -1
-        ),
-        Question(
-            "What is life ?",
-            listOf("Joke", "Pain", "Opposite of good", "All of the above"),
-            0,
-            -1
-        ),
-        Question(
-            "What is life ?",
-            listOf("Joke", "Pain", "Opposite of good", "All of the above"),
-            0,
-            -1
-        ),
-        Question(
-            "What is life ?",
-            listOf("Joke", "Pain", "Opposite of good", "All of the above"),
-            0,
-            -1
-        ),
-
+            -1),
         )
+
     val questions_goal15 = listOf<Question>(
         Question(
-            "What is life SDG15 ?",
-            listOf("Joke", "Pain", "Opposite of good", "All of the above"),
-            0,
-            -1
-        ),
-        Question(
-            "What is life ?",
-            listOf("Joke", "Pain", "Opposite of good", "All of the above"),
-            1,
-            -1
-        ),
-        Question(
-            "What is life ?",
-            listOf("Joke", "Pain", "Opposite of good", "All of the above"),
+            "When was Life on land goal established?",
+            listOf("2016", "2017", "2015","2014"),
             2,
-            -1
-        ),
-
+            -1),
+        Question(
+            "Who became the signatory for the United Nation Convention to Combat Desertification (UNCCD) in 1994.",
+            listOf("India", "China", "Mexico","Brazil"),
+            0,
+            -1),
+        Question(
+            "Where was Conservation of biological diversity adopted at the UN conference in 1992.",
+            listOf("Salvador", "Brasilia", "Rio de Janerio","Vitoria"),
+            2,
+            -1),
         )
 
     val questions_goal16 = listOf<Question>(
         Question(
-            "What is life SDG16 ?",
-            listOf("Joke", "Pain", "Opposite of good", "All of the above"),
-            0,
-            -1
-        ),
-        Question(
-            "What is life ?",
-            listOf("Joke", "Pain", "Opposite of good", "All of the above"),
-            1,
-            -1
-        ),
-        Question(
-            "What is life ?",
-            listOf("Joke", "Pain", "Opposite of good", "All of the above"),
-            2,
-            -1
-        ),
-        Question(
-            "What is life ?",
-            listOf("Joke", "Pain", "Opposite of good", "All of the above"),
+            "In 2020, child labour",
+            listOf("Slight Increased", "Decreased", "Remained same", "Largely increased"),
             3,
             -1
         ),
         Question(
-            "What is life ?",
-            listOf("Joke", "Pain", "Opposite of good", "All of the above"),
-            0,
+            "Bribery is how many times more likely in low income than in high income countries",
+            listOf("Two", "Five", "Half", "Ten"),
+            1,
             -1
         ),
-
+        Question(
+            "What are the core of sustainable development",
+            listOf("Peace", "Justice and effective", "Accountable", "All of the above"),
+            3,
+            -1
+        ),
         )
+
     val questions_goal17 = listOf<Question>(
         Question(
-            "What is life SDG17 ?",
-            listOf("Joke", "Pain", "Opposite of good", "All of the above"),
-            0,
-            -1
-        ),
-        Question(
-            "What is life ?",
-            listOf("Joke", "Pain", "Opposite of good", "All of the above"),
-            1,
-            -1
-        ),
-        Question(
-            "What is life ?",
-            listOf("Joke", "Pain", "Opposite of good", "All of the above"),
-            2,
-            -1
-        ),
-        Question(
-            "What is life ?",
-            listOf("Joke", "Pain", "Opposite of good", "All of the above"),
+            "Which of the following are the targets of SDG17?",
+            listOf("Strengthen domestic resource mobilization", "Adopt and implement investment promotion regimes", "None of the above","All of the above"),
             3,
-            -1
-        ),
+            -1),
         Question(
-            "What is life ?",
-            listOf("Joke", "Pain", "Opposite of good", "All of the above"),
+            "Nearly what portion of global population are still not online",
+            listOf("Half", "One fourth", "One third","Three fifth"),
             0,
-            -1
-        ),
-
+            -1),
         )
 
 

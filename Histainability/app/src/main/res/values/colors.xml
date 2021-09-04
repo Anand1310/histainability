@@ -10,7 +10,7 @@
 
 <!--    Home-->
     <color name="colorBackground">#FBFAFA</color>
-    <color name="colorHomeMenu">#D3D1D1</color>
+    <color name="colorHomeMenu">#FFBB00</color>
     <color name="colorHomeList">#FCFBFB</color>
     <color name="colorHomeListText">#32877C</color>
 
