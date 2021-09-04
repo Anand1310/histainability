@@ -4,13 +4,11 @@ _Working towards sustainability through the eyes of history_
 
 ---
 
-<p align="center">
-<img src="./images/main_light_eng.jpeg" alt = "main_light_eng" >
+<p float="left">
+    <img src="./images/main_dark_eng.jpeg" alt = "main_menu_dark_eng" width ="300" height="600">
+    <img src="./images/main_light_eng.jpeg" alt = "main_light_eng" width ="300" height="600">
+    <img src="./images/main_dark_hi.jpeg" alt = "main_dark_hi" width ="300" height="600">
 </p>
-
-
-<img src="./images/main_dark_eng.jpeg" alt = "main_menu_dark_eng" width ="300">
-<img src="./images/main_dark_hi.jpeg" alt = "main_dark_hi" width ="300">
 
 ---
 
@@ -49,17 +47,21 @@ The information collected from Google N-gram depicts historical reasons for chan
 -   Each Event card contains information regarding historical event which had a significant impact on the way people think about that particular SDG
 -   This tries to plot and analyse the patterns in the events which had a positive/negative impact.
 
-<img src="./images/sdg_menu_dark_telugu.jpeg" alt = "sdg_menu_dark_telugu" width ="300">
-<img src="./images/graph_dark_eng.jpeg" alt = "graph_dark_eng" width ="300">
+<p float="left">
+<img src="./images/sdg_menu_dark_telugu.jpeg" alt = "sdg_menu_dark_telugu" width ="300" height="600">
+<img src="./images/graph_dark_eng.jpeg" alt = "graph_dark_eng" width ="300" height="600">
+</p>
 
 ### Quiz
 
 -   Once user is aware of the events, he/she can test this knowledge with the help of quiz we prepared
 -   User can again select a SDG and then take the quiz and find result
 
-<img src="./images/quiz_light_eng.jpeg" alt = "quiz_light_eng" width ="300">
-<img src="./images/quiz_dark_eng.jpeg" alt = "quiz_dark_eng" width ="300">
-
+<p float="left">
+<img src="./images/quiz_light_eng.jpeg" alt = "quiz_light_eng" width ="300" height="600">
+<img src="./images/quiz_dark_eng.jpeg" alt = "quiz_dark_eng" width ="300" height="600">
+</p>
+    
 <!-- ![quiz_light_eng](./images/quiz_light_eng.jpeg?raw=true "quiz_light_eng") -->
 
 ### Other Apps
@@ -71,7 +73,9 @@ The information collected from Google N-gram depicts historical reasons for chan
 -   For better user experience we implemented dark and light mode feature
 -   We also implemented multi language system (Hindi/English/Telugu) in our app to increase useability and accessability
 
-<img src="./images/setting_light_eng.jpeg" alt = "setting_light_eng" width ="300">
+<p float="left">
+<img src="./images/setting_light_eng.jpeg" alt = "setting_light_eng" width ="300" height="600">
+</p>
 
 ---
 
