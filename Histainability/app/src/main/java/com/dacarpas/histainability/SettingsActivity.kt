@@ -29,7 +29,7 @@ class SettingsActivity : AppCompatActivity() {
 
         clSettingPage.ibShareButtonApp.setOnClickListener {
             // TODO(ADD GOOGLE PLAY LINK)
-            val message: String = "GOOGLE PLAY LINK"
+            val message: String = "https://drive.google.com/drive/folders/1tzIxpeWwC1gWbZh9uUckuP92Ubktrvlh?usp=sharing"
 
             val intent = Intent()
             intent.action = Intent.ACTION_SEND
