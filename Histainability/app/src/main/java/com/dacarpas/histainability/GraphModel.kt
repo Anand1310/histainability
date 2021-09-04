@@ -206,11 +206,53 @@ object Supplier2 {
 
     val eventsGoal8 = listOf<EventData>(
         EventData(
-            2016,
-            "PMUY",
-            "PMUY was launched by the Government of India with the aim of providing clean-cooking fuel to the poor households, which are otherwise vulnerable to various health hazards associated with indoor air pollution and bringing in qualitative charges in the living standards.",
+            1919,
+            "During World War 1",
+            "Many women found jobs previously unavailable to them in manufacturing companies, and metals factories producing war materials. These jobs paid higher salaries than those traditionally categorized as 'women’s work' .",
             1
-        )
+        ),
+        EventData(
+            2011,
+            "Deen Dayal Antyodaya Yojana - NRLM",
+            "Aided in part through investment support by the World Bank, the Mission aims at creating efficient and effective institutional platforms of the rural poor, enabling them to increase household income through sustainable livelihood enhancements and improved access to financial services.",
+            1
+        ),
+        EventData(
+            1945,
+            "After World War 2",
+            "By war’s end, critical employment, in contrast to military service, is positively associated with supervisory responsibility for younger men and with occupation change. This empoloyment does not predict postwar career advancement up to the 1970s.",
+            1
+        ),
+        EventData(
+            1965,
+            "Mine Safety and Health Administration",
+            "In the 1960s economic expansion again led to rising injury rates and the resulting political pressures led to MSHA. The work of these agencies had been controversial but on balance they have contributed to the continuing reductions in work injuries after 1970.",
+            1
+        ),
+        EventData(
+            1970,
+            "Job Safety Law",
+            "On December 29, 1970, President Richard Nixon signed into law the Williams-Steiger Occupational Safety and Health Act, which gave the Federal Government the authority to set and enforce safety and health standards for most of the country's workers.",
+            1
+        ),
+        EventData(
+            1990,
+            "World Wide Web is Born",
+            "In the early 1990s, improvements in connectivity and the creation of the internet meant a computer went from being a luxury item to an essential item for almost every employee.",
+            1
+        ),
+        EventData(
+            2005,
+            "Mahatma Gandhi National Rural Employment Guarantee Act",
+            "The MGNREGA provides a legal guarantee for one hundred days of employment in every financial year to adult members of any rural household willing to do public work-related unskilled manual work at the statutory minimum wage.",
+            1
+        ),
+        EventData(
+            1969,
+            "The National Service Scheme",
+            "NSS is an Indian government-sponsored flagship for public service program conducted by the Ministry of Youth Affairs and Sports of the Government of India. The scheme was launched in Gandhiji's Centenary year in 1969.",
+            1
+        ),
     )
 
     // anand (9-12)
