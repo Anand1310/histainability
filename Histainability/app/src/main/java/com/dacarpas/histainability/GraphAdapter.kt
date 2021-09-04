@@ -8,11 +8,13 @@ import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.graph_card_data.view.*
 
-class GraphAdapter(val context : Context, private val eventsList : List<EventData>) : RecyclerView.Adapter<GraphAdapter.MyViewHolder>(){
-    inner class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
+class GraphAdapter(val context: Context, private val eventsList: List<EventData>) :
+    RecyclerView.Adapter<GraphAdapter.MyViewHolder>() {
+    inner class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private var likeCount = 0
-        init{
-            itemView.setOnClickListener{
+
+        init {
+            itemView.setOnClickListener {
                 likeCount++
                 Toast.makeText(context, "\uD83D\uDC9C x $likeCount ", Toast.LENGTH_SHORT).show()
             }
@@ -21,7 +23,9 @@ class GraphAdapter(val context : Context, private val eventsList : List<EventDat
 
         fun setData(event: EventData?, position: Int) {
             itemView.txvEventTitle.text = event!!.title
+            itemView.txvEventYear.text = event.year.toString()
             itemView.txvEventDescription.text = event.description
+            likeCount = event.starCount
         }
 
     }

@@ -43,9 +43,8 @@ object Supplier2 {
             "The 1992 Indian stock market scam was a market manipulation carried out by Harshad Shantilal Mehta with other bankers and politicians on the Bombay Stock Exchange. The scam caused significant disruption to the stock market of India, defrauding investors of over one billion USD. Techniques used by Mehta involved having corrupt officials signing fake cheques, misusing market loopholes, and fabrication to drive the prices of stocks up to 40 times their original price. Stock traders making good returns as a result of the scam were able to fraudulently obtain unsecured loans from banks. When the scam was discovered in April 1992, the Indian stock market collapsed, and the same banks suddenly found themselves holding millions of INR in now useless debt.",
             1
         ),
+    )
 
-
-        )
 
     val eventsGoal2 = listOf<EventData>(
         EventData(
@@ -262,8 +261,7 @@ object Supplier2 {
             "Great Industrial production in america",
             "Mass production made technology affordable to the middle class. The automotive industry, the film industry, the radio industry, and the chemical industry took off during the 1920s.",
             1
-        )
-        ,
+        ),
         EventData(
             1930,
             "Great Depression",
@@ -370,8 +368,8 @@ object Supplier2 {
             1
         ),
 
-    )
-  
+        )
+
     val eventsGoal11 = listOf<EventData>(
         EventData(
             1984,
@@ -510,7 +508,7 @@ object Supplier2 {
             "PMUY was launched by the Government of India with the aim of providing clean-cooking fuel to the poor households, which are otherwise vulnerable to various health hazards associated with indoor air pollution and bringing in qualitative charges in the living standards.",
             1
         )
-        
+
     )
 
     val eventsGoal15 = listOf<EventData>(
@@ -520,7 +518,7 @@ object Supplier2 {
             "The Secretariat of the UNCCD, the Economics of Land Degradation initiative, the IUCN Commission on Ecosystem Management and the IUCN Global Drylands initiative collaborated in organizing a themed journey entitled “Life on Land” at the IUCN World Conservation Congress, Hawaii, September 2016. The journey was designed to support a move towards a more comprehensive response to achieving Land Degradation Neutrality by 2030, as part of the Sustainable Development Goals. It connected many diverse approaches to land use and land management to explore potential synergies or conflicts",
             1
         ),
-         EventData(
+        EventData(
             1994,
             "United Nation Convention to Combat Desertification (UNCCD)",
             "India became a signatory to the United Nation Convention to Combat Desertification (UNCCD) in 1994 and ratified it in 1996.",
@@ -561,8 +559,7 @@ object Supplier2 {
             "Birth Registrations",
             "146 countries and territories have birth registration data that are at least 90 per cent complete and 151 countries and territories have death registration data that are at least 75 per cent complete. Therefore, about 60 per cent of countries and territories worldwide meet both criteria. In sub-Saharan Africa, additional countries and territories have birth and death registration data compared to the previous reporting period, increasing from 28 to 29 countries and territories for birth registration and from 53 to 55 countries and territories for death registration.",
             1
-        )
-        ,
+        ),
         EventData(
             2019,
             "National statistical legislation",

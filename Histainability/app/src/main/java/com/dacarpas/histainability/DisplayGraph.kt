@@ -77,7 +77,7 @@ class DisplayGraph : AppCompatActivity() {
 
         // calling the adapter, passing this activity as context and the array of data
 
-
+        this.eventGoals = this.eventGoals.sortedWith(compareBy { it.year })
         val adapter = GraphAdapter(this, this.eventGoals)
         rvHistoryEvents.adapter = adapter
         rvHistoryEvents.setHasFixedSize(true) // use for performance

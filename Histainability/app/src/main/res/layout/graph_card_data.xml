@@ -26,23 +26,47 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@color/colorGraphTitleBackground"
-            android:textColor="@color/colorGraphTitleText"
             android:gravity="center_horizontal"
-            android:textStyle="bold"
             android:paddingLeft="2dp"
-            android:paddingTop="0dp"
+            android:paddingTop="2dp"
             android:paddingRight="2dp"
+            android:paddingBottom="2dp"
             android:text="Title"
-            android:textSize="16sp" />
+            android:textColor="@color/colorGraphTitleText"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/txvEventDescription"
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@color/colorGraphDescriptionBackground"
-            android:textColor="@color/colorGraphDescriptionText"
-            android:padding="14dp"
-            android:text="Description - large t xtss" />
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txvEventDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorGraphDescriptionBackground"
+                android:padding="14dp"
+                android:text="Description - large t xtss"
+                android:textColor="@color/colorGraphDescriptionText"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txvEventYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="Year"
+                android:textColor="#E91E63"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
