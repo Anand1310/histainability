@@ -4,10 +4,10 @@ _Working towards sustainability through the eyes of history_
 
 ---
 
-<p float="left">
-    <img src="./images/main_dark_eng.jpeg" alt = "main_menu_dark_eng" height="400">
-    <img src="./images/main_light_eng.jpeg" alt = "main_light_eng" height="400">
-    <img src="./images/main_dark_hi.jpeg" alt = "main_dark_hi" height="400">
+<p float="center">
+    <img src="./images/main_dark_eng.jpeg" alt = "main_menu_dark_eng" height="500">
+    <img src="./images/main_light_eng.jpeg" alt = "main_light_eng" height="500">
+    <img src="./images/main_dark_hi.jpeg" alt = "main_dark_hi" height="500">
 </p>
 
 ---
@@ -48,8 +48,8 @@ The information collected from Google N-gram depicts historical reasons for chan
 -   This tries to plot and analyse the patterns in the events which had a positive/negative impact.
 
 <p float="left">
-<img src="./images/sdg_menu_dark_telugu.jpeg" alt = "sdg_menu_dark_telugu" width ="300" height="600">
-<img src="./images/graph_dark_eng.jpeg" alt = "graph_dark_eng" width ="300" height="600">
+<img src="./images/sdg_menu_dark_telugu.jpeg" alt = "sdg_menu_dark_telugu" height="500">
+<img src="./images/graph_dark_eng.jpeg" alt = "graph_dark_eng" height="500">
 </p>
 
 ### Quiz
@@ -58,8 +58,8 @@ The information collected from Google N-gram depicts historical reasons for chan
 -   User can again select a SDG and then take the quiz and find result
 
 <p float="left">
-<img src="./images/quiz_light_eng.jpeg" alt = "quiz_light_eng" width ="300" height="600">
-<img src="./images/quiz_dark_eng.jpeg" alt = "quiz_dark_eng" width ="300" height="600">
+<img src="./images/quiz_light_eng.jpeg" alt = "quiz_light_eng" height="500">
+<img src="./images/quiz_dark_eng.jpeg" alt = "quiz_dark_eng" height="500">
 </p>
     
 <!-- ![quiz_light_eng](./images/quiz_light_eng.jpeg?raw=true "quiz_light_eng") -->
@@ -74,11 +74,14 @@ The information collected from Google N-gram depicts historical reasons for chan
 -   We also implemented multi language system (Hindi/English/Telugu) in our app to increase useability and accessability
 
 <p float="left">
-<img src="./images/setting_light_eng.jpeg" alt = "setting_light_eng" width ="300" height="600">
+<img src="./images/setting_light_eng.jpeg" alt = "setting_light_eng" height="500">
 </p>
 
 ---
+#### Demo video for HISTAINABILITY
+    https://drive.google.com/file/d/1Nl-mF1uD1oDLJ0SD6HMOTOgBwFJQ0sER/view?usp=sharing
 
+---
 ## Future Goals
 
 -   Making graph more interactive
