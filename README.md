@@ -5,9 +5,9 @@ _Working towards sustainability through the eyes of history_
 ---
 
 <p float="left">
-    <img src="./images/main_dark_eng.jpeg" alt = "main_menu_dark_eng" width ="300" height="600">
-    <img src="./images/main_light_eng.jpeg" alt = "main_light_eng" width ="300" height="600">
-    <img src="./images/main_dark_hi.jpeg" alt = "main_dark_hi" width ="300" height="600">
+    <img src="./images/main_dark_eng.jpeg" alt = "main_menu_dark_eng" height="400">
+    <img src="./images/main_light_eng.jpeg" alt = "main_light_eng" height="400">
+    <img src="./images/main_dark_hi.jpeg" alt = "main_dark_hi" height="400">
 </p>
 
 ---
